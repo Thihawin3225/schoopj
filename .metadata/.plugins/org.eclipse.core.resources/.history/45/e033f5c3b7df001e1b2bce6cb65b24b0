@@ -1,0 +1,124 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<%@ page import="java.util.List"%>
+<%@ page import="pagecreate.pageUser"%>
+<%@ page import="pagecreate.pageUserDAO"%>
+<%@ page import="crud.User"%>
+<%@ page import="crud.UserDAO"%>
+<%@ page import="java.util.ArrayList"%>
+
+<%
+    String searchQuery = request.getParameter("search");
+
+    List<pageUser> userList;
+    if (searchQuery != null && !searchQuery.isEmpty()) {
+        userList = new pageUserDAO().searchUsers(searchQuery);
+    } else {
+        userList = new pageUserDAO().getAllUsers();
+    }
+%>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Blog/App</title>
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.24/css/dataTables.bootstrap4.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
+    <link rel="stylesheet" href="../plugins/fontawesome-free/css/all.min.css">
+    <link rel="stylesheet" href="../dist/css/adminlte.min.css">
+</head>
+<body class="hold-transition sidebar-mini">
+<div class="wrapper">
+    <!-- Navigation Bar -->
+    <!-- Sidebar -->
+    <!-- Content Wrapper -->
+    <div class="content-wrapper">
+        <div class="content-header">
+            <div class="container-fluid">
+                <div class="row mb-2">
+                    <div class="col-sm-6">
+                        <h1 class="m-0"></h1>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <!-- Add Button -->
+                <a href="${pageContext.request.contextPath}/AdminLTE/PageCreate/add.jsp?id=<%= userList.size() %>" class="btn btn-warning">Add New Page</a>
+                <% if (!userList.isEmpty()) { %>
+                    <div class="float-right d-none d-sm-inline">
+                        <a href="${pageContext.request.contextPath}/DeleteAll" onclick="alert('Are you sure you want to delete all?');" type="button" class="btn btn-danger">Delete All</a>
+                    </div>
+                <% } %>
+            </div>
+        </div>
+        <div class="content">
+            <% if (userList.isEmpty()) { %>
+                <div class="row justify-content-center">
+                    <div class="col-md-6">
+                        <div class="alert alert-info text-center" role="alert">
+                            No data found.
+                        </div>
+                    </div>
+                </div>
+            <% } else { %>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="card">
+                            <div class="card-header">
+                                <h3 class="card-title">Page Create Blog</h3>
+                            </div>
+                            <div class="card-body">
+                                <table id="userTable" class="table table-bordered">
+                                    <thead>
+                                        <tr>
+                                            <th style="width: 20px">ID</th>
+                                            <th>University Name</th>
+                                            <th>Location</th>
+                                            <th>Description</th>
+                                            <th>Link</th>
+                                            <th>Action</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <% for (pageUser user : userList) { %>
+                                            <tr>
+                                                <td><%= user.getId() %></td>
+                                                <td><%= user.getUniname() %></td>
+                                                <td><%= user.getLocation() %></td>
+                                                <td><%= user.getDesc() %></td>
+                                                
+                                                <td>
+                                                    <a href="edit.jsp?id=<%= user.getId() %>">Edit</a>
+                                                    <a href="${pageContext.request.contextPath}/pageDeleteUser?id=<%= user.getId() %>" onclick="return confirm('Are you sure you want to delete this?');">Delete</a>
+                                                </td>
+                                            </tr>
+                                        <% } %>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            <% } %>
+        </div>
+    </div>
+    <footer class="main-footer">
+        <div class="float-right d-none d-sm-inline">
+            <a href="../loginAndregister/logout.jsp" type="button" class="btn btn-danger">Logout</a>
+        </div>
+        <strong>Copyright &copy; 2023-2024 <a href="#">University Admissions Guide</a>.</strong>
+    </footer>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="../plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="../dist/js/adminlte.min.js"></script>
+<script src="https://cdn.datatables.net/1.10.24/js/jquery.dataTables.min.js"></script>
+<script src="https://cdn.datatables.net/1.10.24/js/dataTables.bootstrap4.min.js"></script>
+<script>
+    $(document).ready(function() {
+        $('#userTable').DataTable();
+    });
+</script>
+</body>
+</html>

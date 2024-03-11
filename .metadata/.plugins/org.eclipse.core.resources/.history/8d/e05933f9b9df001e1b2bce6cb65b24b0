@@ -1,0 +1,273 @@
+
+<%@ page language="java" contentType="text/html;  charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<%@ page import="java.util.List" %>
+<%@ page import="crud.User" %>
+<%@ page import="pagecreate.pageUserDAO" %>
+<%@ page import="pagecreate.pageUser" %>
+<%@ page import="java.util.ArrayList" %>
+<%
+List<String> distinctUniNames = new pageUserDAO().getDistinctUniNames();
+
+%>
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>University Guide</title>
+
+  <!-- Google Font: Source Sans Pro -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="../plugins/fontawesome-free/css/all.min.css">
+  <!-- Ionicons -->
+  <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+  <!-- Theme style -->
+  <link rel="stylesheet" href="../dist/css/adminlte.min.css">
+</head>
+<style>
+.main-footer {
+    background-color: #198057;
+    color: #FFFFFF;
+}
+.form-control::placeholder {
+  font-size: 0.95rem; /* Change this value to your desired font size */
+}
+[class*=sidebar-dark-] {
+    background-color: #568a54;
+}
+[class*=sidebar-dark-] .sidebar a {
+    color: #FFFFFF;
+}
+.content-wrapper {
+    background-color: white;
+}
+.card-header {
+    background-color: #229985;
+
+}  
+.card-title {
+    color: white;
+}
+   
+         body {
+            background-color: #8cb3d9;
+            color: black;
+        }
+
+        .header {
+            color: white;
+        }
+
+        .intro {
+            margin-left: 5px;
+        }
+
+        p {
+            text-indent: 15px;
+        }
+
+        .carousel-inner img {
+            max-width: 100%;
+            height: auto;
+            margin: auto;
+        } 
+   
+    
+</style>
+<body class="hold-transition sidebar-mini">
+<div class="wrapper">
+  <!-- Navbar -->
+  <nav class="main-header navbar navbar-expand navbar-white navbar-light">
+    <!-- Left navbar links -->
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" data-widget="pushmenu" href="#" role="button"><i class="fas fa-bars"></i></a>
+      </li>
+      <li class="nav-item d-none d-sm-inline-block">
+        <a href="${pageContext.request.contextPath}/AdminLTE/User/userHome.jsp" class="nav-link">Home</a>
+      </li>
+      <li class="nav-item d-none d-sm-inline-block">
+        <a href="#" class="nav-link">Contact</a>
+      </li>
+    </ul>
+    
+  </nav>
+  <!-- /.navbar -->
+  
+  <!-- Main Sidebar Container -->
+  <aside class="main-sidebar sidebar-dark-primary elevation-4">
+    <!-- Brand Logo -->
+    <a href="../index3.html" class="brand-link">
+      <img src="logo.jpg" alt="AdminLTE Logo" class="brand-image img-circle elevation-3" style="opacity: .8">
+      <span class="brand-text font-weight-light">University Guide</span>
+    </a>
+
+    <!-- Sidebar -->
+    <div class="sidebar">
+      <!-- Sidebar user panel (optional) -->
+      <div class="user-panel mt-3 pb-3 mb-3 d-flex">
+        <div class="image">
+          <img src="logo.jpg" class="img-circle elevation-2" alt="User Image">
+        </div>
+        <div class="info">
+          <a href="#" class="d-block">University Guide</a>
+        </div>
+      </div>
+
+
+<!-- Sidebar Menu -->
+      <nav class="mt-2">
+        <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
+        <li class="nav-item">
+          <a href="three.jsp" class="nav-link">
+              <i class="nav-icon fas fa-search"></i>
+              <p>
+                Search
+               
+              </p>
+            </a>
+            
+          </li>
+          <% for(String a : distinctUniNames){ %>
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              <i class="fas fa-university nav-icon"></i>
+              
+              <p>
+                <%= a %>
+                <i class="right fas fa-angle-left"></i>
+              </p>
+            </a>
+            <ul class="nav nav-treeview">
+            <%
+        List<pageUser> userList = new pageUserDAO().getUserByName(a);
+    %>
+            <% for(pageUser user : userList) {%>
+              <li class="nav-item">
+                <a href="example1.jsp?id=<%= user.getId()%>" class="nav-link">
+                 <i class="fas fa-map-marker-alt nav-icon"></i>
+                 
+                  <p><%= user.getLocation() %></p>
+                </a>
+              </li>
+              <%} %>
+            </ul>
+          </li>
+          <%} %>
+          
+            </ul>
+          </li>
+          </ul>
+      </nav>
+      <!-- /.sidebar-menu -->
+    </div>
+    <!-- /.sidebar -->
+  </aside>
+  <!-- Content Wrapper. Contains page content -->
+  <div class="content-wrapper">
+    <section class="content-header">
+    <div class="container-fluid">
+        <div class="row mb-2">
+            <div class="col-sm-6">
+                <h1>University Admissions Guide</h1> <!-- Adjusted Title -->
+            </div>
+        </div>
+    </div><!-- /.container-fluid -->
+</section>
+
+<!-- Main content -->
+<section class="content">
+    <div class="container-fluid">
+        <!-- Your content goes here -->
+        <div class="row">
+            <div class="col-md-12">
+                <p>Welcome to the University Admissions Guide </p>
+                
+                <!-- Image Slider -->
+                <div id="image-slider" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="data:image/jpeg;base64,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" class="d-block w-100" alt="Image 1">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="image2.jpg" class="d-block w-100" alt="Image 2">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="image3.jpg" class="d-block w-100" alt="Image 3">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="image4.jpg" class="d-block w-100" alt="Image 4">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="image5.jpg" class="d-block w-100" alt="Image 5">
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#image-slider" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#image-slider" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+                <!-- End Image Slider -->
+                
+                <!-- Additional content for the home page -->
+            </div>
+        </div>
+    </div><!-- /.container-fluid -->
+</section>
+
+<!-- JavaScript for auto-moving the image slider -->
+
+<!-- Bootstrap and jQuery libraries (required for Bootstrap Carousel) -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
+
+    
+    
+  </div>
+  <!-- /.content-wrapper -->
+  
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+  <footer class="main-footer">
+    <div class="float-right d-none d-sm-block">
+      
+    </div>
+    <strong>Copyright &copy; 2023-2024 <a href="https://adminlte.io">University Admissions Guide</a>.</strong> All rights reserved.
+  </footer>
+
+  <!-- Control Sidebar -->
+  <aside class="control-sidebar control-sidebar-dark">
+    <!-- Control sidebar content goes here -->
+  </aside>
+  <!-- /.control-sidebar -->
+</div>
+<!-- ./wrapper -->
+
+<!-- jQuery -->
+<script src="../plugins/jquery/jquery.min.js"></script>
+<!-- Bootstrap 4 -->
+<script src="../plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+<!-- AdminLTE App -->
+<script src="../dist/js/adminlte.min.js"></script>
+<!-- AdminLTE for demo purposes -->
+<script src="../dist/js/demo.js"></script>
+<script>
+    $(document).ready(function(){
+        $('#image-slider').carousel({
+            interval: 2000, // Change the interval (in milliseconds) as needed
+            pause: "false" // This prevents the slider from pausing on hover
+        });
+    });
+</script>
+</body>
+</html>

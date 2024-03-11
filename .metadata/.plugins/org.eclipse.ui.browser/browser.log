@@ -1,0 +1,19 @@
+
+Mar 11, 2024 22:15:21.99 NEW SESSION
+Mar 11, 2024 22:15:22.02 [4652:1280:0311/221521.981:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -106
+Mar 11, 2024 22:15:23.92 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Mar 11, 2024 22:15:49.07 [4652:1280:0311/221549.078:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -106
+Mar 11, 2024 22:16:38.36 [4652:1280:0311/221638.360:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -106
+Mar 11, 2024 22:18:37.28 [4652:1280:0311/221837.284:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -106
+Mar 11, 2024 22:21:53.58 [4652:1280:0311/222153.588:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -106
+Mar 11, 2024 22:29:03.96 [4652:1280:0311/222903.967:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -106
+Mar 11, 2024 22:39:03.96 [4652:1280:0311/223903.969:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -106
+Mar 11, 2024 22:42:54.82 [4652:1280:0311/224254.820:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+Mar 11, 2024 22:43:23.88 [4652:1280:0311/224323.885:ERROR:connection_factory_impl.cc(478)] ConnectionHandler failed with net error: -2
+Mar 11, 2024 22:46:51.55 [4652:1280:0311/224651.559:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -106
+Mar 11, 2024 23:01:34.29 [4652:1280:0311/230134.291:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+Mar 11, 2024 23:13:32.61 [4652:1280:0311/231332.610:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -106
+Mar 11, 2024 23:13:53.93 [4652:1280:0311/231353.933:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -106
+Mar 11, 2024 23:14:41.02 [4652:1280:0311/231441.019:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -106
+Mar 11, 2024 23:16:39.51 [4652:1280:0311/231639.512:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -106
+Mar 11, 2024 23:20:32.32 [4652:1280:0311/232032.321:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -106

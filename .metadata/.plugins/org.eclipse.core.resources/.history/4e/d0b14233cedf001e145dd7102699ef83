@@ -1,0 +1,1982 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+<meta charset="UTF-8">
+<title>How much does university cost? - Save the Student</title>
+<link rel="preload" href="https://www.savethestudent.org/wp-content/themes/save-the-student/dist/fonts/graphik/Graphik-Regular.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="https://www.savethestudent.org/wp-content/themes/save-the-student/dist/fonts/graphik/Graphik-Bold.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="https://www.savethestudent.org/wp-content/themes/save-the-student/dist/fonts/graphik/Graphik-Semibold.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="https://www.savethestudent.org/wp-content/themes/save-the-student/dist/fonts/graphik/Graphik-Medium.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preconnect" href="https://www.googletagmanager.com">
+<link rel="preconnect" href="https://www.google-analytics.com">
+<script type="text/javascript">/*! modernizr 3.6.0 (Custom Build) | MIT *
+ * https://modernizr.com/download/?-touchevents-prefixed-setclasses !*/
+!function(e,n,t){function r(e,n){return typeof e===n}function o(){var e,n,t,o,i,s,a;for(var l in C)if(C.hasOwnProperty(l)){if(e=[],n=C[l],n.name&&(e.push(n.name.toLowerCase()),n.options&&n.options.aliases&&n.options.aliases.length))for(t=0;t<n.options.aliases.length;t++)e.push(n.options.aliases[t].toLowerCase());for(o=r(n.fn,"function")?n.fn():n.fn,i=0;i<e.length;i++)s=e[i],a=s.split("."),1===a.length?Modernizr[a[0]]=o:(!Modernizr[a[0]]||Modernizr[a[0]]instanceof Boolean||(Modernizr[a[0]]=new Boolean(Modernizr[a[0]])),Modernizr[a[0]][a[1]]=o),g.push((o?"":"no-")+a.join("-"))}}function i(e){var n=_.className,t=Modernizr._config.classPrefix||"";if(x&&(n=n.baseVal),Modernizr._config.enableJSClass){var r=new RegExp("(^|\\s)"+t+"no-js(\\s|$)");n=n.replace(r,"$1"+t+"js$2")}Modernizr._config.enableClasses&&(n+=" "+t+e.join(" "+t),x?_.className.baseVal=n:_.className=n)}function s(){return"function"!=typeof n.createElement?n.createElement(arguments[0]):x?n.createElementNS.call(n,"http://www.w3.org/2000/svg",arguments[0]):n.createElement.apply(n,arguments)}function a(){var e=n.body;return e||(e=s(x?"svg":"body"),e.fake=!0),e}function l(e,t,r,o){var i,l,u,f,c="modernizr",p=s("div"),d=a();if(parseInt(r,10))for(;r--;)u=s("div"),u.id=o?o[r]:c+(r+1),p.appendChild(u);return i=s("style"),i.type="text/css",i.id="s"+c,(d.fake?d:p).appendChild(i),d.appendChild(p),i.styleSheet?i.styleSheet.cssText=e:i.appendChild(n.createTextNode(e)),p.id=c,d.fake&&(d.style.background="",d.style.overflow="hidden",f=_.style.overflow,_.style.overflow="hidden",_.appendChild(d)),l=t(p,e),d.fake?(d.parentNode.removeChild(d),_.style.overflow=f,_.offsetHeight):p.parentNode.removeChild(p),!!l}function u(e){return e.replace(/([a-z])-([a-z])/g,function(e,n,t){return n+t.toUpperCase()}).replace(/^-/,"")}function f(e,n){return!!~(""+e).indexOf(n)}function c(e,n){return function(){return e.apply(n,arguments)}}function p(e,n,t){var o;for(var i in e)if(e[i]in n)return t===!1?e[i]:(o=n[e[i]],r(o,"function")?c(o,t||n):o);return!1}function d(e){return e.replace(/([A-Z])/g,function(e,n){return"-"+n.toLowerCase()}).replace(/^ms-/,"-ms-")}function m(n,t,r){var o;if("getComputedStyle"in e){o=getComputedStyle.call(e,n,t);var i=e.console;if(null!==o)r&&(o=o.getPropertyValue(r));else if(i){var s=i.error?"error":"log";i[s].call(i,"getComputedStyle returning null, its possible modernizr test results are inaccurate")}}else o=!t&&n.currentStyle&&n.currentStyle[r];return o}function v(n,r){var o=n.length;if("CSS"in e&&"supports"in e.CSS){for(;o--;)if(e.CSS.supports(d(n[o]),r))return!0;return!1}if("CSSSupportsRule"in e){for(var i=[];o--;)i.push("("+d(n[o])+":"+r+")");return i=i.join(" or "),l("@supports ("+i+") { #modernizr { position: absolute; } }",function(e){return"absolute"==m(e,null,"position")})}return t}function h(e,n,o,i){function a(){c&&(delete N.style,delete N.modElem)}if(i=r(i,"undefined")?!1:i,!r(o,"undefined")){var l=v(e,o);if(!r(l,"undefined"))return l}for(var c,p,d,m,h,y=["modernizr","tspan","samp"];!N.style&&y.length;)c=!0,N.modElem=s(y.shift()),N.style=N.modElem.style;for(d=e.length,p=0;d>p;p++)if(m=e[p],h=N.style[m],f(m,"-")&&(m=u(m)),N.style[m]!==t){if(i||r(o,"undefined"))return a(),"pfx"==n?m:!0;try{N.style[m]=o}catch(g){}if(N.style[m]!=h)return a(),"pfx"==n?m:!0}return a(),!1}function y(e,n,t,o,i){var s=e.charAt(0).toUpperCase()+e.slice(1),a=(e+" "+E.join(s+" ")+s).split(" ");return r(n,"string")||r(n,"undefined")?h(a,n,o,i):(a=(e+" "+T.join(s+" ")+s).split(" "),p(a,n,t))}var g=[],C=[],S={_version:"3.6.0",_config:{classPrefix:"",enableClasses:!0,enableJSClass:!0,usePrefixes:!0},_q:[],on:function(e,n){var t=this;setTimeout(function(){n(t[e])},0)},addTest:function(e,n,t){C.push({name:e,fn:n,options:t})},addAsyncTest:function(e){C.push({name:null,fn:e})}},Modernizr=function(){};Modernizr.prototype=S,Modernizr=new Modernizr;var _=n.documentElement,w=S._config.usePrefixes?" -webkit- -moz- -o- -ms- ".split(" "):["",""];S._prefixes=w;var x="svg"===_.nodeName.toLowerCase(),b=S.testStyles=l;Modernizr.addTest("touchevents",function(){var t;if("ontouchstart"in e||e.DocumentTouch&&n instanceof DocumentTouch)t=!0;else{var r=["@media (",w.join("touch-enabled),("),"heartz",")","{#modernizr{top:9px;position:absolute}}"].join("");b(r,function(e){t=9===e.offsetTop})}return t});var z="Moz O ms Webkit",E=S._config.usePrefixes?z.split(" "):[];S._cssomPrefixes=E;var P=function(n){var r,o=w.length,i=e.CSSRule;if("undefined"==typeof i)return t;if(!n)return!1;if(n=n.replace(/^@/,""),r=n.replace(/-/g,"_").toUpperCase()+"_RULE",r in i)return"@"+n;for(var s=0;o>s;s++){var a=w[s],l=a.toUpperCase()+"_"+r;if(l in i)return"@-"+a.toLowerCase()+"-"+n}return!1};S.atRule=P;var T=S._config.usePrefixes?z.toLowerCase().split(" "):[];S._domPrefixes=T;var j={elem:s("modernizr")};Modernizr._q.push(function(){delete j.elem});var N={style:j.elem.style};Modernizr._q.unshift(function(){delete N.style}),S.testAllProps=y;S.prefixed=function(e,n,t){return 0===e.indexOf("@")?P(e):(-1!=e.indexOf("-")&&(e=u(e)),n?y(e,n,t):y(e,"pfx"))};o(),i(g),delete S.addTest,delete S.addAsyncTest;for(var k=0;k<Modernizr._q.length;k++)Modernizr._q[k]();e.Modernizr=Modernizr}(window,document);
+</script>
+<style>@charset "UTF-8";@font-face{font-display:optional;font-family:Graphik;src:url(/wp-content/themes/save-the-student/dist/fonts/graphik/Graphik-Bold.eot);src:url(/wp-content/themes/save-the-student/dist/fonts/graphik/Graphik-Bold.eot?#iefix) format("embedded-opentype"),url(/wp-content/themes/save-the-student/dist/fonts/graphik/Graphik-Bold.woff2) format("woff2"),url(/wp-content/themes/save-the-student/dist/fonts/graphik/Graphik-Bold.woff) format("woff"),url(/wp-content/themes/save-the-student/dist/fonts/graphik/Graphik-Bold.ttf) format("truetype"),url(/wp-content/themes/save-the-student/dist/fonts/graphik/Graphik-Bold.svg) format("svg");font-weight:700;font-style:normal;font-display:optional;}@font-face{font-display:optional;font-family:Graphik;src:url(/wp-content/themes/save-the-student/dist/fonts/graphik/Graphik-Extralight.eot);src:url(/wp-content/themes/save-the-student/dist/fonts/graphik/Graphik-Extralight.eot?#iefix) format("embedded-opentype"),url(/wp-content/themes/save-the-student/dist/fonts/graphik/Graphik-Extralight.woff2) format("woff2"),url(/wp-content/themes/save-the-student/dist/fonts/graphik/Graphik-Extralight.woff) format("woff"),url(/wp-content/themes/save-the-student/dist/fonts/graphik/Graphik-Extralight.ttf) format("truetype"),url(/wp-content/themes/save-the-student/dist/fonts/graphik/Graphik-Extralight.svg) format("svg");font-weight:200;font-style:normal;font-display:optional;}@font-face{font-display:optional;font-family:Graphik;src:url(/wp-content/themes/save-the-student/dist/fonts/graphik/Graphik-Light.eot);src:url(/wp-content/themes/save-the-student/dist/fonts/graphik/Graphik-Light.eot?#iefix) format("embedded-opentype"),url(/wp-content/themes/save-the-student/dist/fonts/graphik/Graphik-Light.woff2) format("woff2"),url(/wp-content/themes/save-the-student/dist/fonts/graphik/Graphik-Light.woff) format("woff"),url(/wp-content/themes/save-the-student/dist/fonts/graphik/Graphik-Light.ttf) format("truetype"),url(/wp-content/themes/save-the-student/dist/fonts/graphik/Graphik-Light.svg) format("svg");font-weight:300;font-style:normal;font-display:optional;}@font-face{font-display:optional;font-family:Graphik;src:url(/wp-content/themes/save-the-student/dist/fonts/graphik/Graphik-Medium.eot);src:url(/wp-content/themes/save-the-student/dist/fonts/graphik/Graphik-Medium.eot?#iefix) format("embedded-opentype"),url(/wp-content/themes/save-the-student/dist/fonts/graphik/Graphik-Medium.woff2) format("woff2"),url(/wp-content/themes/save-the-student/dist/fonts/graphik/Graphik-Medium.woff) format("woff"),url(/wp-content/themes/save-the-student/dist/fonts/graphik/Graphik-Medium.ttf) format("truetype"),url(/wp-content/themes/save-the-student/dist/fonts/graphik/Graphik-Medium.svg) format("svg");font-weight:500;font-style:normal;font-display:optional;}@font-face{font-display:optional;font-family:Graphik;src:url(/wp-content/themes/save-the-student/dist/fonts/graphik/Graphik-Regular.eot);src:url(/wp-content/themes/save-the-student/dist/fonts/graphik/Graphik-Regular.eot?#iefix) format("embedded-opentype"),url(/wp-content/themes/save-the-student/dist/fonts/graphik/Graphik-Regular.woff2) format("woff2"),url(/wp-content/themes/save-the-student/dist/fonts/graphik/Graphik-Regular.woff) format("woff"),url(/wp-content/themes/save-the-student/dist/fonts/graphik/Graphik-Regular.ttf) format("truetype"),url(/wp-content/themes/save-the-student/dist/fonts/graphik/Graphik-Regular.svg) format("svg");font-weight:400;font-style:normal;font-display:optional;}@font-face{font-display:optional;font-family:Graphik;src:url(/wp-content/themes/save-the-student/dist/fonts/graphik/Graphik-Semibold.eot);src:url(/wp-content/themes/save-the-student/dist/fonts/graphik/Graphik-Semibold.eot?#iefix) format("embedded-opentype"),url(/wp-content/themes/save-the-student/dist/fonts/graphik/Graphik-Semibold.woff2) format("woff2"),url(/wp-content/themes/save-the-student/dist/fonts/graphik/Graphik-Semibold.woff) format("woff"),url(/wp-content/themes/save-the-student/dist/fonts/graphik/Graphik-Semibold.ttf) format("truetype"),url(/wp-content/themes/save-the-student/dist/fonts/graphik/Graphik-Semibold.svg) format("svg");font-weight:600;font-style:normal;font-display:optional;}@font-face{font-display:swap;font-family:"Ionicons";src:url("/wp-content/themes/save-the-student/dist/fonts/ionicons/ionicons.eot?v=2.0.1");src:url("/wp-content/themes/save-the-student/dist/fonts/ionicons/ionicons.eot?v=2.0.1#iefix") format("embedded-opentype"),url("/wp-content/themes/save-the-student/dist/fonts/ionicons/ionicons.ttf?v=2.0.1") format("truetype"),url("/wp-content/themes/save-the-student/dist/fonts/ionicons/ionicons.woff?v=2.0.1") format("woff"),url("/wp-content/themes/save-the-student/dist/fonts/ionicons/ionicons.svg?v=2.0.1#Ionicons") format("svg");font-weight:normal;font-style:normal;font-display:swap;}*{outline:0!important}html{height:auto}body{height:100%;color:#3b5992;padding-top:55px;-webkit-font-smoothing:antialiased;font-smooth:always;font-family:Graphik,Arial,sans-serif;font-weight:400;line-height:25px;background-color:#54366d;font-size:16px}a{color:#004aac}iframe{border:0;overflow:hidden}a,a:visited{text-decoration:none}ul{margin:0}img[data-src]{opacity:0}.twitter-share-button{position:relative!important;top:6px}.fb_iframe_widget:not(.fb-comments){display:inline-block!important}.fb_iframe_widget:not(.fb-comments).fb-like,.fb_iframe_widget:not(.fb-comments).fb-share-button{top:-2px;margin-left:4px}#wrapper{position:relative;z-index:5}.heading,.sidebar-and-article .article-body .body .the-content h2{margin:0 0 11px 0;padding:11px 20px;color:#fff;display:inline-block;font-weight:600;font-size:16px}.sidebar-and-article .article-body .body .the-content h2{position:relative;padding-right:25px}.img-responsive,.sidebar-and-article .article-body .body .the-content img{max-width:100%;height:auto}.-icon{display:inline-block;background-color:#fff;color:#332342;font-size:1.35em;height:40px;width:40px;line-height:40px;text-align:center;border-radius:100%}.nav-container .links .site-nav>li>a{font-weight:400}.nav-container .links .site-nav>li>a{font-size:15.56px;font-size:.81042vw}.display-table-xs{display:table;width:100%}.display-table-xs>*{display:table-row;height:100%}.display-table-xs>*>*{height:100%;display:table-cell;float:none;vertical-align:middle}.display-table-xs{display:table;width:100%}.display-table-xs>*{display:table-row;height:100%}.display-table-xs>*>*{height:100%;display:table-cell;float:none;vertical-align:middle}.nav-height{height:55px}.nav-container .links .sharing li,.nav-container .links .site-nav>li>a{height:55px;line-height:55px}.bg-colour-white{background-color:#fff}.sidebar-and-article .article-body .body .the-content h2{max-width:100%}.colour-pink{color:#c6529c}.bg-colour-pink{background-color:#c6529c}.border-colour-pink{border-color:#c6529c}.colour-red{color:#df4055}.bg-colour-red{background-color:#df4055}.border-colour-red{border-color:#df4055}.colour-green{color:#00b196}.bg-colour-green{background-color:#00b196}.border-colour-green{border-color:#00b196}.colour-light-green{color:#88bf5f}.bg-colour-light-green{background-color:#88bf5f}.border-colour-light-green{border-color:#88bf5f}.bg-colour-light-grey{background-color:#f4f3ee}.colour-grey{color:#aab2bc}.colour-light-purple{color:#8f7ab5}.bg-colour-light-purple{background-color:#8f7ab5}.border-colour-light-purple{border-color:#8f7ab5}.bg-colour-sts-purple{background-color:#54366d}.border-colour-sts-purple{border-color:#54366d}.colour-orange{color:#f66b59}.bg-colour-orange{background-color:#f66b59}.border-colour-orange{border-color:#f66b59}.colour-yellow{color:#edb746}.bg-colour-yellow{background-color:#edb746}.border-colour-yellow{border-color:#edb746}.colour-blue{color:#40b3d8}.bg-colour-blue{background-color:#40b3d8}.border-colour-blue{border-color:#40b3d8}.row.no-gutter{margin-right:0;margin-left:0}.no-gutter>[class*=col-]{padding-right:0;padding-left:0}.no-gutter{margin:0!important}.no-padding-right{padding-right:0!important}.bootstrap-small [class*=col-]{padding:4.5px}.bootstrap-small .row{margin:-4.5px}#cookie-bar{-webkit-animation-delay:4s;animation-delay:4s;position:fixed;bottom:0;left:0;right:0;z-index:6;background-color:#d0d0d0;color:#54366d}#cookie-bar>p{display:block;padding:10px 15px;padding-right:40px;margin:0 auto;font-size:13px;line-height:16px;width:100%;max-width:1200px;position:relative}#cookie-bar>p a{color:#3a254b;text-decoration:underline}#cookie-bar>p .ion-alert{border:1px solid #000;text-align:center;padding:0;height:17px;width:17px;font-size:10px;display:inline-block;border-radius:10px;margin-right:8px;line-height:17px}#cookie-bar .close-me{padding:0;margin:0;color:#54366d;float:right;display:inline-block;text-decoration:none;font-weight:400;text-align:center;font-size:24px;position:absolute;right:15px;top:6px}.site-footer .main-footer .trigger-link{color:#fff}.site-footer .main-footer .trigger{line-height:3.5em;padding:0;margin:0}.site-footer .main-footer .trigger .trigger-link{text-transform:uppercase;font-weight:500;font-size:calc(13px + 1.2200000000000006 * ((100vw - 420px)/ 860));margin:0}.site-footer .main-footer .copyright>a{color:#fff}.site-footer .main-footer .copyright>a{opacity:.4}form input{padding:0;margin:0;border:0;-webkit-box-shadow:none;box-shadow:none;outline:0}form input{border:1px solid #c3c2be}form input::-webkit-input-placeholder{text-overflow:ellipsis}form input:-moz-placeholder{text-overflow:ellipsis}form input::-moz-placeholder{text-overflow:ellipsis}form input:-ms-input-placeholder{text-overflow:ellipsis}form input:not(.wpcf7-submit){max-width:500px;width:100%;border-radius:4px;padding:5px}form input:not(.wpcf7-submit){height:40px}.site-nav .has-children{position:relative}.site-nav .has-children .arrow{opacity:0;position:absolute;bottom:0;left:50%;-webkit-transform:translateX(-50%);transform:translateX(-50%);font-size:1.5em;color:#fff;height:10px;line-height:10px}.child-mega-menu{opacity:0;visibility:hidden;position:fixed;left:0;right:0;background-color:#fff;padding:3.5% 0;z-index:9}.child-mega-menu .child-links .heading,.child-mega-menu .child-links .link{color:#000}.child-mega-menu .child-links .heading{display:inline-block;margin:0 0 13% 0;padding:0 0 10px 0;border-bottom-width:3px;border-bottom-style:solid;max-width:100%;overflow:hidden;text-overflow:ellipsis;font-size:25px}.child-mega-menu .child-links .link{position:relative;font-size:calc(16px + 2 * ((100vw - 420px)/ 860));display:block;margin:0 0 5.5% 0}.child-mega-menu .child-links .link .chevron{position:absolute;left:0;opacity:0;-webkit-transform:translateX(-100%);transform:translateX(-100%)}.multi-level-mob-menu .fb-like,.nav-container .fb-like{display:inline-block;line-height:29px}.multi-level-mob-menu .twitter-follow-button,.nav-container .twitter-follow-button{position:relative!important;top:5px!important}.multi-level-mob-menu .fb_iframe_widget,.nav-container .fb_iframe_widget{top:-5px!important}.nav-container{position:fixed;z-index:10;top:0;left:0;right:0;background:#54366d;padding:0 15px;overflow:hidden}.nav-container .links .sharing{display:none}.nav-container .links{width:100%;position:relative}.nav-container .links .sharing{text-align:right}.nav-container .links .sharing li{padding:2px 3px}.nav-container .links .sharing li a{color:#fff}.nav-container .links .sharing li .share.-email{position:relative;top:3px}.nav-container .links .site-nav{width:100%;float:left}.nav-container .links .site-nav>li{float:left;padding:0}.nav-container .links .site-nav>li>a{border:0;letter-spacing:.95px;padding:0;font-weight:500;text-transform:uppercase;display:inline-block;color:#fff;margin-right:7.5px}.nav-container .links .site-nav>li>a>span{padding:10px;border-radius:20px}.nav-container .links .site-nav>li:not(.-open):not(.-active) span:not(:hover):not(:focus){background-color:transparent}.nav-container .links .site-nav>li.-highlight>a>span{border:2px solid #f66b59}.nav-container .search{display:inline-block;float:right;position:relative;top:2px}.nav-container .search .search-form{position:absolute;top:0;bottom:0;right:0;background-color:#fff;border-radius:40px;z-index:-1;opacity:0}.nav-container .search .search-form,.nav-container .search .search-form .field{font-size:14px;padding:0 5px;line-height:19px}.nav-container .search .search-form .field-container{padding:10px 40px 10px 10px}.nav-container .search .search-form .field-container .field{width:325px;color:#54366d;border:0;height:20px}.nav-container .links .site-nav{width:55%}.nav-container .links .site-nav .ellipsis{position:absolute;width:25px;margin:0}.nav-container .links .site-nav .ellipsis>a div{font-size:25px;height:25px;line-height:12.5px;position:absolute;top:50%;-webkit-transform:translateY(-50%);transform:translateY(-50%)}.nav-container .links .sharing{display:inline-block;width:360px;float:right}.nav-container .search-form-container{position:relative;display:inline-block;line-height:normal}.nav-container .search-form-container.-mobile{margin-right:20px}.nav-container .search .-search,.nav-container .search a{position:relative;z-index:2}.nav-container .links .sharing .search .-search{font-size:1.5em}.nav-container a.image{position:relative;width:8.25%;padding:10px 0}.nav-container a.image>div{position:relative;height:100%}.nav-container a.image img{opacity:1}.nav-container a.image,.nav-container a.image img{height:35px}.nav-container .burger-container{width:86.75%;display:table-cell}.nav-container .burger-container .navbar-toggle{position:relative;display:block;margin-top:10px}.nav-container .burger-container .navbar-toggle:after{content:'';position:absolute;top:-9px;bottom:-12px;left:-10px;right:-10px;background-color:#fff;border-radius:100%;z-index:1}.nav-container .burger-container .mobile-search{float:right;font-size:1.25em}.nav-container .burger-container .mobile-search .-icon{line-height:43px}.nav-container .burger{text-decoration:none;padding:0;position:relative;width:20px;height:20px}.nav-container .burger i{position:relative;display:inline-block;width:18px;height:3px;color:#54366d;font:bold 14px/.4 Helvetica;text-transform:uppercase;text-indent:-55px;background:#54366d;z-index:2;top:-5px}.nav-container .burger i:after,.nav-container .burger i:before{content:'';width:18px;height:3px;background:#54366d;position:absolute;left:0}.nav-container .burger i:before{top:-7px}.nav-container .burger i:after{bottom:-7px}.multi-level-mob-menu .side-menu-container{display:block;position:fixed;top:0;bottom:0;right:0;width:293px;z-index:3000;-webkit-transform:translateX(293px);transform:translateX(293px);background-color:#fff;border-top:1px solid #f4f3ee}.multi-level-mob-menu .side-menu-veil{position:absolute;display:none;top:0;left:-10000px;bottom:0;right:0;z-index:2900;background-color:rgba(0,0,0,.6)}.multi-level-mob-menu aside{display:block;height:100%;width:100%;position:absolute;top:0;background-color:#fff}.multi-level-mob-menu aside a{outline:0}.multi-level-mob-menu .site-head .header{position:absolute;left:53px;top:17px}.multi-level-mob-menu .header{width:160px;text-overflow:ellipsis;white-space:nowrap;overflow:hidden;display:inline-block;text-align:center}.multi-level-mob-menu aside.sub-menu{-webkit-transform:translateX(293px);transform:translateX(293px)}.multi-level-mob-menu aside.sub-menu>ul{top:55px}.multi-level-mob-menu aside header{height:55px;position:absolute;top:0;right:0;width:293px;font-size:16px;padding-top:17px;border-bottom:1px solid #f4f3ee;background-color:#fff;font-weight:400;text-align:center}.multi-level-mob-menu aside header .pnp-nav-back{height:100%;width:20px;display:inline-block;text-align:center;position:absolute;left:0;top:0;color:#54366d}.multi-level-mob-menu aside header .pnp-nav-back{padding:0!important;width:65px}.multi-level-mob-menu aside header .pnp-nav-back i{font-size:35px;position:relative;top:10px}.multi-level-mob-menu aside footer{position:absolute;bottom:0;left:0;right:0;border-top:1px solid #f4f3ee;background-color:#54366d;padding:20px}.multi-level-mob-menu aside footer>:not(:last-child){margin-right:10px}.multi-level-mob-menu aside ul{margin:0;padding:0;list-style-type:none;width:100%;position:absolute;top:55px;bottom:0;overflow-x:hidden;overflow-y:auto;-webkit-overflow-scrolling:touch;padding-bottom:71px}.multi-level-mob-menu aside ul li>a{position:relative;display:block;padding:18px 30px 18px 5px!important;text-decoration:none;color:#54366d}.multi-level-mob-menu aside ul li>a.pnp-nav-has-child-menu div:after{font-family:Ionicons;content:"\f3d3";position:absolute;right:20px;top:50%;-webkit-transform:translateY(-50%);transform:translateY(-50%)}.multi-level-mob-menu aside ul li>a>div{padding-left:20px;font-size:14px}.multi-level-mob-menu aside ul li>a:after{position:absolute;left:0;right:0;content:"";bottom:0;border-bottom:1px solid #f4f3ee}.multi-level-mob-menu aside ul>li:last-child>a:after{border-color:transparent}.multi-level-mob-menu .side-menu-container>aside{text-align:left;padding-top:14px}.nav-container .links .sharing li{padding:2px 3px!important}.share{font-size:12px}.share.-plain{padding:10px;border:1px solid #aab2bc;border-radius:40px}.share.-plain span{display:inline-block;text-align:center}.share.-plain,.share.-plain i{color:#fff}.share.-plain i{position:relative;top:3px;font-size:1.5em}.join-email__text{font-size:16px;top:2px;position:relative}.body-column{padding:0 4.5px}.table-container{margin-bottom:3%}.sidebar-and-article{padding-top:3%}.sidebar-and-article .article-body{position:relative;background:#fff;-webkit-box-shadow:0 0 15px 0 rgba(0,0,0,.25);box-shadow:0 0 15px 0 rgba(0,0,0,.25);padding:7% 20px}.sidebar-and-article .article-body:after{content:'';display:block;position:absolute;top:-5px;height:5px;left:0;right:0;-webkit-transform:translateY(100%);transform:translateY(100%);border-top-width:5px;border-top-style:solid;border-top-color:inherit}.sidebar-and-article .article-body .category{font-size:calc(17px + 3 * ((100vw - 420px)/ 860));font-weight:500;margin:0}.sidebar-and-article .article-body .-medium{font-weight:500}.sidebar-and-article .article-body,.sidebar-and-article .article-body .body .the-content h2,.sidebar-and-article .article-body .heading{color:#000}.sidebar-and-article .article-body .body .the-content h2,.sidebar-and-article .article-body .heading{margin:0;padding:0}.sidebar-and-article .article-body .heading.-title{margin:3% 0 6% 0;font-weight:600;font-size:35px}.sidebar-and-article .article-body .author-meta{border:1px solid #e8e8e8;border-left:0;border-right:0;padding:10px 0;display:table;table-layout:fixed;width:100%}.sidebar-and-article .article-body .author-meta>div{display:table-row;width:100%}.sidebar-and-article .article-body .author-meta>div>div{display:table-cell;vertical-align:middle}.sidebar-and-article .article-body .author-meta>div .profile-image-container{width:90px}.sidebar-and-article .article-body .author-meta>div .meta{padding-right:15px}.sidebar-and-article .article-body .author-meta>div .meta .category-link{color:#000}.sidebar-and-article .article-body .author-meta>div .sharing{width:50%;padding-left:15px;display:none;text-align:right}.sidebar-and-article .article-body .author-meta>div .sharing .sidebar-and-article .article-body .author-meta .author-link{color:#000}.sidebar-and-article .article-body .author-meta .profile-image{border-radius:100%}.sidebar-and-article .article-body .author-meta .meta{padding-right:15px;line-height:1.5em;font-size:14px}.sidebar-and-article .article-body .author-meta .meta p{margin:0}.sidebar-and-article .article-body .body{margin-top:5%;padding-bottom:2.5%;line-height:1.75em}.sidebar-and-article .article-body .body .the-content img.aligncenter{margin:10px auto 20px}.sidebar-and-article .article-body .body .the-content li,.sidebar-and-article .article-body .body .the-content ol,.sidebar-and-article .article-body .body .the-content p{font-size:16px;line-height:1.75em;-webkit-font-smoothing:antialiased;font-weight:400;color:#111}.sidebar-and-article .article-body .body .the-content ol{margin:0;padding:0}.sidebar-and-article .article-body .body .the-content ol li{margin-bottom:10px}.sidebar-and-article .article-body .body .the-content p{margin:2.5% 0}.sidebar-and-article .article-body .body .the-content a{color:#004aac;font-weight:600}.sidebar-and-article .article-body .body .the-content .numbers li,.sidebar-and-article .article-body .body .the-content h2,.sidebar-and-article .article-body .body .the-content h3{margin-top:20px;margin-bottom:10px;font-size:20px}.sidebar-and-article .article-body .body .the-content .numbers li h3:after{display:none}.sidebar-and-article .article-body .body .the-content h2{display:inline-block;padding:20px 20px 20px 20px;margin:1.5% 0 1.5% -20px;color:#fff;max-width:100%}.sidebar-and-article .article-body .body .the-content .numbers,.sidebar-and-article .article-body .body .the-content ol{padding-left:20px}.sidebar-and-article .article-body .body .the-content .numbers li{font-weight:600;color:#88bf5f}.sidebar-and-article .article-body .body .the-content .numbers li h3{color:#111}.sidebar-and-article .article-sidebar{height:100%;padding-right:25px}.sidebar-and-article .article-sidebar .widget:not(:first-of-type){margin:15% 0}.sidebar-and-article .article-sidebar .widget [class*=col-]{padding-top:0;padding-bottom:0}.sidebar-and-article .article-sidebar .widget .heading.-sidebar{display:block;margin:0;text-transform:uppercase;font-size:15.56px;font-weight:500}.sidebar-and-article .article-sidebar .widget .card.landscape{margin-bottom:2px}.sidebar-and-article .article-sidebar .widget .card.landscape:before{height:1.5em}.sidebar-and-article .article-sidebar .widget .card.landscape .content-container{left:100px}.sidebar-and-article .article-sidebar .widget .card.landscape .content-container .content .heading{color:#004aac}.aligncenter{display:block;margin:5px auto 5px auto;text-align:center}.alignright{float:right;margin:5px 0 20px 20px}a img.aligncenter{display:block;margin-left:auto;margin-right:auto}.sidebar-and-article .article-body .heading.-title{margin:3% 0 4%!important}.sidebar-and-article .article-body .body{padding-bottom:0!important}.sidebar-and-article .article-body .body{margin-top:3%}.sidebar-and-article .article-body .body .the-content .numbers li{margin-top:30px!important}.component.card{height:100px;overflow:hidden}.component.card .content-container .content .heading{color:#004aac}.component.card:not(.fluid-height){position:relative}.component.card:not(.fluid-height):before{content:'';position:absolute;bottom:0;left:0;right:0;height:1em;z-index:3;background:inherit}.component.card:not(.fluid-height) .image{position:relative;z-index:3}.component.card:not(.fluid-height) .content-container{z-index:2}.component.card .content-container{padding:20px}.component.card .content-container .heading{color:#000;font-weight:400;line-height:1.3em;font-size:15px;margin:0;padding:0}.component.card.coloured .content-container .heading{color:#fff}.component.card.landscape .content-container .content .heading{font-weight:500}.component-accordion .trigger{position:relative;display:block}.component-accordion .trigger:after{content:'\f3d0';font-family:Ionicons;position:absolute;top:50%;right:15px;-webkit-transform:translateY(-50%);transform:translateY(-50%);font-size:1.5em;color:#fff}.component-accordion .trigger.-active:after{-webkit-transform:translateY(-50%) rotate(180deg);transform:translateY(-50%) rotate(180deg)}.component.card:after{content:'';display:block;position:absolute;bottom:0;height:5px;left:0;right:0;-webkit-transform:translateY(100%);transform:translateY(100%);border-bottom-width:5px;border-bottom-style:solid;border-bottom-color:inherit}.component.card:after{z-index:4;display:none}.component.card .image{display:inline-block}.component.card .image.-desktop{display:none}.component.card .content-container{position:relative;float:right;display:inline-block;padding:10px 20px;width:calc(100% - 100px)}.overflow-menu{display:none;opacity:0;background-color:#fff;padding:0;-webkit-box-shadow:0 0 10px 0 rgba(0,0,0,.5);box-shadow:0 0 10px 0 rgba(0,0,0,.5);z-index:6;text-align:left;font-size:14px;position:fixed;top:50%;left:50%;-webkit-transform:translate(-50%,-50%);transform:translate(-50%,-50%);max-height:50%;overflow-y:auto}.overflow-menu.-thin{width:250px}@media (min-width:768px){body{padding-top:55px}.nav-height{height:55px}.nav-container .links .sharing li,.nav-container .links .site-nav>li>a{height:55px;line-height:55px}.child-mega-menu{top:55px}.multi-level-mob-menu .fb_iframe_widget,.nav-container .fb_iframe_widget{top:-5px!important}.nav-container .links .site-nav>li{height:55px;line-height:55px}.nav-container .links .sharing .search .-search,.nav-container .links .sharing .search a{line-height:40px}.nav-container a.image{padding:15px 0}.overflow-menu{font-size:15px;position:absolute;-webkit-transform:translateX(-50%);transform:translateX(-50%);top:100%;left:50%;overflow-y:visible;max-height:none}.overflow-menu:after{position:absolute;top:0;left:50%;-webkit-transform:translate(-50%,-100%);transform:translate(-50%,-100%);height:20px;content:'\f10d';font-family:Ionicons;font-size:30px;line-height:30px;color:#fff}}@media (min-width:992px){body{padding-top:73px}.heading,.sidebar-and-article .article-body .body .the-content h2{font-size:24.44px}.nav-height{height:73px;padding:0 2%}.nav-container .links .sharing li,.nav-container .links .site-nav>li>a{height:73px;line-height:73px}.site-footer .main-footer .trigger{border-bottom:1px solid #4a3c5a;padding:17px 0;margin:0 20px;line-height:1em}.site-footer .main-footer .trigger:after{display:none}.site-nav .has-children .arrow{height:15px;line-height:15px}.child-mega-menu{top:73px}.multi-level-mob-menu .twitter-follow-button,.nav-container .twitter-follow-button{top:8px!important}.multi-level-mob-menu .fb_iframe_widget,.nav-container .fb_iframe_widget{top:-2px!important}.nav-container .links .site-nav>li{height:100%}.nav-container .links .site-nav .ellipsis{height:100%}.nav-container .links .site-nav{height:73px}.nav-container .links .sharing li:not(.search){position:relative;top:-5px}.nav-container .links .sharing .search .-search,.nav-container .links .sharing .search a{display:inline-block;height:40px;width:40px}.nav-container a.image img{position:absolute;top:50%;left:50%;-webkit-transform:translate(-50%,-50%);transform:translate(-50%,-50%);opacity:1}.nav-container a.image .small{opacity:0}.nav-container a.image,.nav-container a.image img{height:44px}.table-container{display:table;table-layout:fixed;height:100%;width:100%}.-table-cell{vertical-align:top;display:table-cell}.-table-row{display:table-row}.body-column{width:70%;padding:0 2% 0 0}.sidebar-column{width:28%}.sidebar-and-article .article-body .author-meta>div .profile-image-container{width:100px}.sidebar-and-article .article-body .author-meta>div .sharing{display:table-cell}.sidebar-and-article .article-body .body .the-content .numbers li,.sidebar-and-article .article-body .body .the-content h2,.sidebar-and-article .article-body .body .the-content h3{font-size:26px}.sidebar-and-article .article-body .body .the-content .numbers,.sidebar-and-article .article-body .body .the-content ol{padding-left:40px}.sidebar-and-article .article-sidebar .widget .card.landscape{height:auto}.sidebar-and-article .article-sidebar .widget .card.landscape .content-container{width:calc(100% - 100px);padding:10px}.sidebar-and-article .article-sidebar .widget .card.landscape .content-container .content .heading{font-size:13px}.sidebar-and-article .article-sidebar .widget .card.landscape .image.-mobile{width:auto;display:block}.sidebar-and-article .article-sidebar .widget .card.landscape .image.-desktop{display:none}.component.card:not(.fluid-height):not(.deal-landscape-wide):before{height:30px}.component.card:not(.fluid-height) .content-container{z-index:3}.component.card .content-container .heading{font-size:17px}.component.card:after{display:block}.component.card{position:relative}.component.card .image.-desktop{display:block}.component.card .image.-mobile{display:none}.component.card .content-container,.component.card .image{float:left;display:block}.component.card .image{width:100%}.component.card .content-container{position:static;display:block;width:100%;padding:20px}.component.card{height:600px}.component.card.half-height{height:295.5px}.component.card.landscape{height:120px}.overflow-menu{font-size:16px}}@media (min-width:1200px){body{padding-top:81px}.nav-height{height:81px;padding:0 .5%}.nav-container .links .sharing li,.nav-container .links .site-nav>li>a{height:81px;line-height:81px}.child-mega-menu{top:81px}.child-mega-menu .child-links .heading{font-size:30px}.nav-container .links .site-nav{width:65%}.nav-container .links .site-nav{height:81px}.nav-container a.image,.nav-container a.image img{height:52px}.sidebar-and-article .article-body{padding:7% 30px}.sidebar-and-article .article-body .heading.-title{font-size:40px}.sidebar-and-article .article-body .author-meta .meta{font-size:15px}.sidebar-and-article .article-body .body .the-content h2{padding:20px 20px 20px 30px;margin-left:-30px}.sidebar-and-article .article-sidebar .widget .card.landscape .content-container{left:54%;width:46%}.sidebar-and-article .article-sidebar .widget .card.landscape .image.-mobile{display:none}.sidebar-and-article .article-sidebar .widget .card.landscape .image.-desktop{display:block}.component.card:not(.fluid-height):not(.deal-landscape-wide):before{height:20px}.component.card .content-container .heading{font-size:18px}.component.card{height:550px}.component.card.half-height{height:270.5px}.component.card.landscape .content-container{width:calc(100% - 200px)}}@media (max-width:767px){.nav-container .burger-container .navbar-toggle{margin-right:5px}}@media (max-width:1604.11311px){.nav-container .links .site-nav>li>a{font-size:13px}}@media screen and (min-width:1280px){.site-footer .main-footer .trigger .trigger-link{font-size:14.22px}.child-mega-menu .child-links .link{font-size:18px}.sidebar-and-article .article-body .category{font-size:20px}}@media screen and (max-width:420px){.site-footer .main-footer .trigger .trigger-link{font-size:13px}.child-mega-menu .child-links .link{font-size:16px}.sidebar-and-article .article-body .category{font-size:17px}}@media screen and (max-width:992px){.nav-container .links{display:none!important}.sidebar-and-article .article-body .body .the-content p{margin-top:20px;margin-bottom:20px}}@media screen and (max-width:550px){.nav-container .search .search-form .field-container .field{width:170px}}@media screen and (max-width:370px){.nav-container .search .search-form .field-container .field{width:120px}}@media screen and (min-width:993px){.nav-container .burger-container{display:none!important}}@media (max-width:768px){.multi-level-mob-menu .side-menu-container .sub-menu ul li:first-child{display:none}.article-body .body .the-content ol li img{margin:0 auto 0!important;float:none!important;display:block}.the-content ol{padding-left:25px!important}}@media (min-width:992px) and (min-width:992px){.component.card.landscape .image{width:54%}.component.card.landscape .content-container{position:absolute;top:50%;left:54%;-webkit-transform:translateY(-50%);transform:translateY(-50%)}.component.card.landscape .content-container{padding:15px}}
+</style>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<meta name="description" content="The cost of university in the UK, including tuition fees for England, Northern Ireland, Scotland and Wales; living costs and how the Student Loan pays for it." />
+<meta name="robots" content="index, follow, max-image-preview:large" />
+<meta name="msvalidate.01" content="6768E19C8C7671111FC6557DC8FC59EF" />
+<meta property="og:site_name" content="Save the Student" />
+<meta property="og:locale" content="en_GB" />
+<meta name="twitter:site" content="savethestudent" />
+<meta property="fb:app_id" content="205383786213279" />
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="This is how much uni REALLY costs you">
+<meta name="twitter:description" content="What you pay isn&#039;t always what it costs.">
+<meta name="twitter:creator" content="savethestudent">
+<meta name="twitter:image" content="https://www.savethestudent.org/uploads/Woman-student-graduate-university-cambridge-money-pound-signs-cash.jpg">
+<meta name="twitter:domain" content="https://www.savethestudent.org/student-finance/university-study-cost.html">
+<meta property="og:url" content="https://www.savethestudent.org/student-finance/university-study-cost.html" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="This is how much uni REALLY costs you" />
+<meta property="og:description" content="What you pay isn&#039;t always what it costs." />
+<meta property="og:image" content="https://www.savethestudent.org/uploads/Woman-student-graduate-university-cambridge-money-pound-signs-cash.jpg" />
+<style id="global-styles-inline-css" type="text/css">
+body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flow > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-flow > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-flow > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-constrained > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-constrained > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)){max-width: var(--wp--style--global--content-size);margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignwide{max-width: var(--wp--style--global--wide-size);}body .is-layout-flex{display: flex;}body .is-layout-flex{flex-wrap: wrap;align-items: center;}body .is-layout-flex > *{margin: 0;}body .is-layout-grid{display: grid;}body .is-layout-grid > *{margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+.wp-block-navigation a:where(:not(.wp-element-button)){color: inherit;}
+:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}
+.wp-block-pullquote{font-size: 1.5em;line-height: 1.6;}
+</style>
+<link rel="stylesheet" id="cmplz-general-css" href="https://www.savethestudent.org/wp-content/plugins/complianz-gdpr-premium/assets/css/cookieblocker.min.css?ver=1710152984" type="text/css" media="all" />
+<link rel="stylesheet" id="ionicons-css" href="https://www.savethestudent.org/wp-content/themes/save-the-student/dist/css/ionicons.min.css?ver=1.0.5" type="text/css" media="all" />
+<link rel="stylesheet" id="bootstrap-css" href="https://www.savethestudent.org/wp-content/themes/save-the-student/externalcss/bootstrap.3.4.1.min-optimised.css" type="text/css" media="all" />
+<link rel="stylesheet" id="global_wgd_css-css" href="https://www.savethestudent.org/wp-content/themes/save-the-student/dist/css/wgd.css?ver=1.0.5" type="text/css" media="all" />
+<link rel="stylesheet" id="global_css-css" href="https://www.savethestudent.org/wp-content/themes/save-the-student/dist/css/global.min-optimised.css?ver=1.0.5" type="text/css" media="all" />
+<link rel="stylesheet" id="tablepress-default-css" href="https://www.savethestudent.org/wp-content/plugins/tablepress/css/build/default.css?ver=2.2.5" type="text/css" media="all" />
+<link rel="stylesheet" id="tablepress-responsive-tables-css" href="https://www.savethestudent.org/wp-content/plugins/tablepress-responsive-tables/css/tablepress-responsive.min.css?ver=1.8" type="text/css" media="all" />
+<link rel="canonical" href="https://www.savethestudent.org/student-finance/university-study-cost.html" />
+<style>.cmplz-hidden {
+					display: none !important;
+				}</style>
+<link rel="icon" href="https://www.savethestudent.org/favicon.ico">
+<script type="application/ld+json">
+        {
+          "@context": "http://schema.org",
+          "@type": "WebSite",
+          "name": "Save the Student",
+          "url": "https://www.savethestudent.org",
+          "publisher" : {
+            "@type": "Organization",
+            "name": "Save the Student",
+            "@id": "https://www.savethestudent.org",
+            "url": "https://www.savethestudent.org",
+            "logo": {"width":60,"height":60,"url":"https://www.savethestudent.org/wp-content/themes/save-the-student/dist/img/sts-logo-meta.png","@type":"ImageObject"},
+            "sameAs": [ "https://www.facebook.com/savethestudent/","https://twitter.com/savethestudent","https://www.instagram.com/savethestudent/" ],
+            "description": "The student money website for everything student finance. Get the latest student discounts, student jobs, make money ideas and more."
+             }
+          }
+    </script>
+
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-W5479T7');</script>
+
+
+<!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+<noscript>
+        <div class="nojs-message">
+            For full functionality of this site it is necessary to enable JavaScript.
+            Here are the <a href="https://www.enable-javascript.com/" target="_blank" rel="nofollow noopener noreferrer">
+            instructions how to enable JavaScript in your web browser</a>.
+        </div>
+    </noscript>
+</head>
+<body>
+
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W5479T7"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+<nav class="nav-container nav-height display-table-xs" id="desktop-nav">
+<div>
+<a class="image" href="/">
+<div>
+<img width="78.52" height="52" src="https://www.savethestudent.org/wp-content/themes/save-the-student/dist/img/logo-new.png" class="hidden-xs hidden-sm" alt="Save the Student" loading="eager" />
+<img width="50.3" height="35" src="https://www.savethestudent.org/wp-content/themes/save-the-student/dist/img/logo-small.svg" class="small" alt="Save the Student" loading="eager" />
+</div>
+</a>
+<div class="links hidden-xs">
+<ul class="site-nav list-inline">
+<li class=" -active has-children" data-mega-menu-id="1">
+<a href="https://www.savethestudent.org/student-finance" title="Student Finance">
+<span class="bg-colour-green">Finance</span>
+</a>
+<span class="arrow ion-arrow-up-b"></span>
+<div class="child-mega-menu">
+<div class="container">
+<div class="row">
+<div class="col-sm-6 col-md-3 child-links">
+<h4 class="heading border-colour-green">Finance</h4>
+<a class="link" href="https://www.savethestudent.org/student-finance">
+<i class="colour-green ion-arrow-right-b chevron"></i>
+All student finance </a>
+<a class="link" href="https://www.savethestudent.org/student-finance/parents-guide-tips-university.html">
+<i class="colour-green ion-arrow-right-b chevron"></i>
+Parents&#039; guide 2024 </a>
+<a class="link" href="https://www.savethestudent.org/student-loans-repayment-calculator">
+<i class="colour-green ion-arrow-right-b chevron"></i>
+Student loan calculator </a>
+<a class="link" href="/join/" target="_blank">
+<i class="colour-green ion-arrow-right-b chevron"></i>
+Free money cheat sheet </a>
+</div>
+<div class="col-sm-6 col-md-9">
+<div class="row bootstrap-small">
+<div class="col-md-4">
+<div class="component card half-height coloured bg-colour-green border-colour-green">
+<img loading="lazy" width="385" height="200" src="https://www.savethestudent.org/wp-content/themes/save-the-student/dist/img/placeholder-385x200.gif" class="image -desktop img-responsive wp-post-image" alt="man using laptop with coins in background" data-src-when-visible="https://www.savethestudent.org/uploads/Man-sitting-using-laptop-coins-background-beanbag-happy-385x200.jpg" decoding="async" fetchpriority="high" />
+<div class="content-container  bg-colour-green">
+<div class="content">
+<a href="https://www.savethestudent.org/student-finance/maintenance-loans.html">
+<h3 class="heading">
+Student Maintenance Loans 2024 </h3>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="component card half-height coloured bg-colour-green border-colour-green">
+<img loading="lazy" width="385" height="200" src="https://www.savethestudent.org/wp-content/themes/save-the-student/dist/img/placeholder-385x200.gif" class="image -desktop img-responsive wp-post-image" alt="student finance" data-src-when-visible="https://www.savethestudent.org/uploads/big-student-finance-385x200.jpg" decoding="async" />
+<div class="content-container  bg-colour-green">
+<div class="content">
+<a href="https://www.savethestudent.org/student-finance/the-big-fat-guide-to-student-finance-2012.html">
+<h3 class="heading">
+Student Finance guide 2024 </h3>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="component card half-height coloured bg-colour-green border-colour-green">
+<img loading="lazy" width="385" height="200" src="https://www.savethestudent.org/wp-content/themes/save-the-student/dist/img/placeholder-385x200.gif" class="image -desktop img-responsive wp-post-image" alt="scholarships bursaries funding for university" data-src-when-visible="https://www.savethestudent.org/uploads/bursaryheader-385x200.jpg" decoding="async" />
+<div class="content-container  bg-colour-green">
+<div class="content">
+<a href="https://www.savethestudent.org/student-finance/student-grants-bursaries-scholarships.html">
+<h3 class="heading">
+Student grants, bursaries and scholarships </h3>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<span class="mega-menu-veil"></span>
+</li>
+<li class=" has-children" data-mega-menu-id="2">
+<a href="https://www.savethestudent.org/money" title="Budgeting &amp; Banking">
+<span class="bg-colour-pink">Banking</span>
+</a>
+<span class="arrow ion-arrow-up-b"></span>
+<div class="child-mega-menu">
+<div class="container">
+<div class="row">
+<div class="col-sm-6 col-md-3 child-links">
+<h4 class="heading border-colour-pink">Banking</h4>
+<a class="link" href="https://www.savethestudent.org/money">
+<i class="colour-pink ion-arrow-right-b chevron"></i>
+All banking &amp; budgeting </a>
+<a class="link" href="https://www.savethestudent.org/money/student-banking">
+<i class="colour-pink ion-arrow-right-b chevron"></i>
+Student banking </a>
+<a class="link" href="https://www.savethestudent.org/money/student-budgeting">
+<i class="colour-pink ion-arrow-right-b chevron"></i>
+Budgeting advice </a>
+<a class="link" href="https://www.savethestudent.org/money/surveys">
+<i class="colour-pink ion-arrow-right-b chevron"></i>
+Student money surveys </a>
+<a class="link" href="https://www.savethestudent.org/podcast">
+<i class="colour-pink ion-arrow-right-b chevron"></i>
+Student money podcast </a>
+</div>
+<div class="col-sm-6 col-md-9">
+<div class="row bootstrap-small">
+<div class="col-md-4">
+<div class="component card half-height coloured bg-colour-pink border-colour-pink">
+<img loading="lazy" width="385" height="200" src="https://www.savethestudent.org/wp-content/themes/save-the-student/dist/img/placeholder-385x200.gif" class="image -desktop img-responsive wp-post-image" alt="Pound coins and text saying &#039;NSMS 2023 National Student Money Survey&#039;" data-src-when-visible="https://www.savethestudent.org/uploads/NSMS-23-header-draft-385x200.png" decoding="async" />
+<div class="content-container  bg-colour-pink">
+<div class="content">
+<a href="https://www.savethestudent.org/money/surveys/student-money-survey-2023-results.html">
+<h3 class="heading">
+Student Money Survey 2023 – Results </h3>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="component card half-height coloured bg-colour-pink border-colour-pink">
+<img loading="lazy" width="385" height="200" src="https://www.savethestudent.org/wp-content/themes/save-the-student/dist/img/placeholder-385x200.gif" class="image -desktop img-responsive wp-post-image" alt="student using bank account" data-src-when-visible="https://www.savethestudent.org/uploads/student-bank-accounts-head-1-385x200.jpg" decoding="async" />
+<div class="content-container  bg-colour-pink">
+<div class="content">
+<a href="https://www.savethestudent.org/money/student-banking/student-bank-accounts.html">
+<h3 class="heading">
+Best student bank accounts 2024 </h3>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="component card half-height coloured bg-colour-pink border-colour-pink">
+<img loading="lazy" width="385" height="200" src="https://www.savethestudent.org/wp-content/themes/save-the-student/dist/img/placeholder-385x200.gif" class="image -desktop img-responsive wp-post-image" alt="purse with money sticking out" data-src-when-visible="https://www.savethestudent.org/uploads/open-wallet-with-sterling-money-notes3-385x200.jpg" decoding="async" />
+<div class="content-container  bg-colour-pink">
+<div class="content">
+<a href="https://www.savethestudent.org/money/student-budgeting/what-do-students-spend-their-money-on.html">
+<h3 class="heading">
+Student living costs in the UK 2024 </h3>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<span class="mega-menu-veil"></span>
+</li>
+<li class=" has-children" data-mega-menu-id="3">
+<a href="https://www.savethestudent.org/make-money" title="Make Money">
+<span class="bg-colour-light-green">Make Money</span>
+</a>
+<span class="arrow ion-arrow-up-b"></span>
+<div class="child-mega-menu">
+<div class="container">
+<div class="row">
+<div class="col-sm-6 col-md-3 child-links">
+<h4 class="heading border-colour-light-green">Make Money</h4>
+<a class="link" href="https://www.savethestudent.org/make-money">
+<i class="colour-light-green ion-arrow-right-b chevron"></i>
+All make money </a>
+<a class="link" href="https://www.savethestudent.org/student-deals/money-rewards">
+<i class="colour-light-green ion-arrow-right-b chevron"></i>
+Earn money &amp; rewards </a>
+</div>
+<div class="col-sm-6 col-md-9">
+<div class="row bootstrap-small">
+<div class="col-md-4">
+<div class="component card half-height coloured bg-colour-light-green border-colour-light-green">
+<img loading="lazy" width="385" height="200" src="https://www.savethestudent.org/wp-content/themes/save-the-student/dist/img/placeholder-385x200.gif" class="image -desktop img-responsive wp-post-image" alt="woman with money and a laptop" data-src-when-visible="https://www.savethestudent.org/uploads/woman-holding-50-notes-male-female4-385x200.jpg" decoding="async" />
+<div class="content-container  bg-colour-light-green">
+<div class="content">
+<a href="https://www.savethestudent.org/make-money/10-quick-cash-injections.html">
+<h3 class="heading">
+40 easy ways to make money quickly </h3>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="component card half-height coloured bg-colour-light-green border-colour-light-green">
+<img loading="lazy" width="385" height="200" src="https://www.savethestudent.org/wp-content/themes/save-the-student/dist/img/placeholder-385x200.gif" class="image -desktop img-responsive wp-post-image" alt="cat on laptop" data-src-when-visible="https://www.savethestudent.org/uploads/cat-using-laptop2-385x200.jpg" decoding="async" />
+<div class="content-container  bg-colour-light-green">
+<div class="content">
+<a href="https://www.savethestudent.org/make-money/best-paid-online-survey-sites.html">
+<h3 class="heading">
+Best paid online survey sites </h3>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="component card half-height coloured bg-colour-light-green border-colour-light-green">
+<img loading="lazy" width="385" height="200" src="https://www.savethestudent.org/wp-content/themes/save-the-student/dist/img/placeholder-385x200.gif" class="image -desktop img-responsive wp-post-image" alt="create a website" data-src-when-visible="https://www.savethestudent.org/uploads/start-wordpress-website-385x200.jpg" decoding="async" />
+<div class="content-container  bg-colour-light-green">
+<div class="content">
+<a href="https://www.savethestudent.org/make-money/how-to-start-wordpress-website.html">
+<h3 class="heading">
+How to create a website in 20 minutes </h3>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<span class="mega-menu-veil"></span>
+</li>
+<li class=" has-children" data-mega-menu-id="4">
+<a href="https://www.savethestudent.org/save-money" title="Save Money">
+<span class="bg-colour-blue">Save Money</span>
+</a>
+<span class="arrow ion-arrow-up-b"></span>
+<div class="child-mega-menu">
+<div class="container">
+<div class="row">
+<div class="col-sm-6 col-md-3 child-links">
+<h4 class="heading border-colour-blue">Save Money</h4>
+<a class="link" href="https://www.savethestudent.org/save-money">
+<i class="colour-blue ion-arrow-right-b chevron"></i>
+All save money </a>
+<a class="link" href="https://www.savethestudent.org/student-deals">
+<i class="colour-blue ion-arrow-right-b chevron"></i>
+Student deals </a>
+<a class="link" href="https://www.savethestudent.org/save-money/food-drink">
+<i class="colour-blue ion-arrow-right-b chevron"></i>
+Food &amp; drink </a>
+<a class="link" href="https://www.savethestudent.org/travel">
+<i class="colour-blue ion-arrow-right-b chevron"></i>
+Travel &amp; holidays </a>
+<a class="link" href="https://www.savethestudent.org/save-money/health">
+<i class="colour-blue ion-arrow-right-b chevron"></i>
+Health &amp; relationships </a>
+<a class="link" href="https://www.savethestudent.org/save-money/lifestyle">
+<i class="colour-blue ion-arrow-right-b chevron"></i>
+Lifestyle </a>
+<a class="link" href="https://www.savethestudent.org/save-money/food-drink/student-recipes">
+<i class="colour-blue ion-arrow-right-b chevron"></i>
+Student recipes </a>
+</div>
+<div class="col-sm-6 col-md-9">
+<div class="row bootstrap-small">
+<div class="col-md-4">
+<div class="component card half-height coloured bg-colour-blue border-colour-blue">
+<img loading="lazy" width="385" height="200" src="https://www.savethestudent.org/wp-content/themes/save-the-student/dist/img/placeholder-385x200.gif" class="image -desktop img-responsive wp-post-image" alt="woman pointing at piggy bank" data-src-when-visible="https://www.savethestudent.org/uploads/Woman-pointing-piggy-bank-pound-coins-money-cash-money-385x200.jpg" decoding="async" />
+<div class="content-container  bg-colour-blue">
+<div class="content">
+<a href="https://www.savethestudent.org/shopping/the-best-money-saving-tips.html">
+<h3 class="heading">
+How to save money – 83 money saving tips </h3>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="component card half-height coloured bg-colour-blue border-colour-blue">
+<img loading="lazy" width="385" height="200" src="https://www.savethestudent.org/wp-content/themes/save-the-student/dist/img/placeholder-385x200.gif" class="image -desktop img-responsive wp-post-image" alt="person with feet up on sofa" data-src-when-visible="https://www.savethestudent.org/uploads/Feet-up-relax-sofa-sleep-money-coins-cash-385x200.jpg" decoding="async" />
+<div class="content-container  bg-colour-blue">
+<div class="content">
+<a href="https://www.savethestudent.org/save-money/money-saving-resources.html">
+<h3 class="heading">
+35 best money-saving sites and tools </h3>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="component card half-height coloured bg-colour-blue border-colour-blue">
+<img loading="lazy" width="385" height="200" src="https://www.savethestudent.org/wp-content/themes/save-the-student/dist/img/placeholder-385x200.gif" class="image -desktop img-responsive wp-post-image" alt="how to get free stuff on your birthday" data-src-when-visible="https://www.savethestudent.org/uploads/birthday-cake-and-present-385x200.jpg" decoding="async" />
+<div class="content-container  bg-colour-blue">
+<div class="content">
+<a href="https://www.savethestudent.org/save-money/birthday-freebies-uk.html">
+<h3 class="heading">
+46 birthday freebies and discounts </h3>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<span class="mega-menu-veil"></span>
+</li>
+<li class=" has-children" data-mega-menu-id="5">
+<a href="https://www.savethestudent.org/student-jobs" title="Jobs &amp; Careers">
+<span class="bg-colour-red">Jobs</span>
+</a>
+<span class="arrow ion-arrow-up-b"></span>
+<div class="child-mega-menu">
+<div class="container">
+<div class="row">
+<div class="col-sm-6 col-md-3 child-links">
+<h4 class="heading border-colour-red">Jobs</h4>
+<a class="link" href="https://www.savethestudent.org/student-jobs">
+<i class="colour-red ion-arrow-right-b chevron"></i>
+Getting a job </a>
+<a class="link" href="/part-time-student-jobs">
+<i class="colour-red ion-arrow-right-b chevron"></i>
+Search part-time jobs </a>
+<a class="link" href="https://www.savethestudent.org/graduate-jobs">
+<i class="colour-red ion-arrow-right-b chevron"></i>
+Search graduate jobs </a>
+<a class="link" href="https://www.savethestudent.org/student-jobs/graduate-scheme-deadlines-20102011.html">
+<i class="colour-red ion-arrow-right-b chevron"></i>
+Graduate schemes </a>
+<a class="link" href="https://www.savethestudent.org/graduates">
+<i class="colour-red ion-arrow-right-b chevron"></i>
+Graduate advice </a>
+</div>
+<div class="col-sm-6 col-md-9">
+<div class="row bootstrap-small">
+<div class="col-md-4">
+<div class="component card half-height coloured bg-colour-red border-colour-red">
+<img loading="lazy" width="385" height="200" src="https://www.savethestudent.org/wp-content/themes/save-the-student/dist/img/placeholder-385x200.gif" class="image -desktop img-responsive wp-post-image" alt="women holding purse next to money bag" data-src-when-visible="https://www.savethestudent.org/uploads/Woman-purse-wallet-money-bag-city-financial-cash-buildings-skyscraper-385x200.jpg" decoding="async" />
+<div class="content-container  bg-colour-red">
+<div class="content">
+<a href="https://www.savethestudent.org/student-jobs/highest-paid-jobs-uk.html">
+<h3 class="heading">
+Highest paying jobs and degrees 2024 </h3>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="component card half-height coloured bg-colour-red border-colour-red">
+<img loading="lazy" width="385" height="200" src="https://www.savethestudent.org/wp-content/themes/save-the-student/dist/img/placeholder-385x200.gif" class="image -desktop img-responsive wp-post-image" alt="part time job starbucks h&amp;m" data-src-when-visible="https://www.savethestudent.org/uploads/part-time-job-retailers-385x200.jpg" decoding="async" />
+<div class="content-container  bg-colour-red">
+<div class="content">
+<a href="https://www.savethestudent.org/student-jobs/finding-part-time-job.html">
+<h3 class="heading">
+How to find a part-time job </h3>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="component card half-height coloured bg-colour-red border-colour-red">
+<img loading="lazy" width="385" height="200" src="https://www.savethestudent.org/wp-content/themes/save-the-student/dist/img/placeholder-385x200.gif" class="image -desktop img-responsive wp-post-image" alt="Graduate cap and fifty pound note" data-src-when-visible="https://www.savethestudent.org/uploads/grad-cap-money-blue-wood-background3-385x200.jpg" decoding="async" />
+<div class="content-container  bg-colour-red">
+<div class="content">
+<a href="https://www.savethestudent.org/student-jobs/whats-the-expected-salary-for-your-degree.html">
+<h3 class="heading">
+Average graduate salaries in the UK 2024 </h3>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<span class="mega-menu-veil"></span>
+</li>
+<li class=" has-children" data-mega-menu-id="6">
+<a href="https://www.savethestudent.org/accommodation" title="Student Accommodation">
+<span class="bg-colour-pink">Accommodation</span>
+</a>
+<span class="arrow ion-arrow-up-b"></span>
+<div class="child-mega-menu">
+<div class="container">
+<div class="row">
+<div class="col-sm-6 col-md-3 child-links">
+<h4 class="heading border-colour-pink">Accommodation</h4>
+<a class="link" href="https://www.savethestudent.org/accommodation">
+<i class="colour-pink ion-arrow-right-b chevron"></i>
+All accommodation </a>
+<a class="link" href="https://www.savethestudent.org/money/surveys/national-student-accommodation-survey-2024.html">
+<i class="colour-pink ion-arrow-right-b chevron"></i>
+Student accommodation survey 2024 </a>
+<a class="link" href="https://www.savethestudent.org/rent-calculator">
+<i class="colour-pink ion-arrow-right-b chevron"></i>
+Rent budget calculator </a>
+<a class="link" href="https://www.savethestudent.org/city">
+<i class="colour-pink ion-arrow-right-b chevron"></i>
+Student cities </a>
+</div>
+<div class="col-sm-6 col-md-9">
+<div class="row bootstrap-small">
+<div class="col-md-4">
+<div class="component card half-height coloured bg-colour-pink border-colour-pink">
+<img loading="lazy" width="385" height="200" src="https://www.savethestudent.org/wp-content/themes/save-the-student/dist/img/placeholder-385x200.gif" class="image -desktop img-responsive wp-post-image" alt="guide to viewing student houses" data-src-when-visible="https://www.savethestudent.org/uploads/Man-looking-at-houses-view-look-385x200.jpg" decoding="async" />
+<div class="content-container  bg-colour-pink">
+<div class="content">
+<a href="https://www.savethestudent.org/accommodation/guide-viewing-student-accommodation.html">
+<h3 class="heading">
+Viewing student houses: what to look for </h3>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="component card half-height coloured bg-colour-pink border-colour-pink">
+<img loading="lazy" width="385" height="200" src="https://www.savethestudent.org/wp-content/themes/save-the-student/dist/img/placeholder-385x200.gif" class="image -desktop img-responsive wp-post-image" alt="how to get student council tax exemption" data-src-when-visible="https://www.savethestudent.org/uploads/Young-girl-reject-palm-away-council-tax-bill-385x200.jpg" decoding="async" />
+<div class="content-container  bg-colour-pink">
+<div class="content">
+<a href="https://www.savethestudent.org/accommodation/gaining-student-council-tax-exemption.html">
+<h3 class="heading">
+Do students pay council tax? </h3>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="component card half-height coloured bg-colour-pink border-colour-pink">
+<img loading="lazy" width="385" height="200" src="https://www.savethestudent.org/wp-content/themes/save-the-student/dist/img/placeholder-385x200.gif" class="image -desktop img-responsive wp-post-image" alt="man using magnifying glass with terrace background" data-src-when-visible="https://www.savethestudent.org/uploads/Man-laptop-magnifying-glass-houses-terrace-homes-385x200.jpg" decoding="async" />
+<div class="content-container  bg-colour-pink">
+<div class="content">
+<a href="https://www.savethestudent.org/accommodation/what-are-your-rights-as-a-tenant.html">
+<h3 class="heading">
+10 tenancy rights every student should know </h3>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<span class="mega-menu-veil"></span>
+</li>
+<li class=" has-children" data-mega-menu-id="7">
+<a href="https://www.savethestudent.org/bills-utilities" title="Student Bills">
+<span class="bg-colour-blue">Bills</span>
+</a>
+<span class="arrow ion-arrow-up-b"></span>
+<div class="child-mega-menu">
+<div class="container">
+<div class="row">
+<div class="col-sm-6 col-md-3 child-links">
+<h4 class="heading border-colour-blue">Bills</h4>
+<a class="link" href="https://www.savethestudent.org/bills-utilities">
+<i class="colour-blue ion-arrow-right-b chevron"></i>
+All bills &amp; utilities </a>
+<a class="link" href="https://www.savethestudent.org/bills-utilities/mobilephones">
+<i class="colour-blue ion-arrow-right-b chevron"></i>
+Mobile phones </a>
+<a class="link" href="https://www.savethestudent.org/mobile-phone-student-deals">
+<i class="colour-blue ion-arrow-right-b chevron"></i>
+Mobile phone comparison </a>
+</div>
+<div class="col-sm-6 col-md-9">
+<div class="row bootstrap-small">
+<div class="col-md-4">
+<div class="component card half-height coloured bg-colour-blue border-colour-blue">
+<img loading="lazy" width="385" height="200" src="https://www.savethestudent.org/wp-content/themes/save-the-student/dist/img/placeholder-385x200.gif" class="image -desktop img-responsive wp-post-image" alt="student bills" data-src-when-visible="https://www.savethestudent.org/uploads/student-bills-feature-image-385x200.jpg" decoding="async" />
+<div class="content-container  bg-colour-blue">
+<div class="content">
+<a href="https://www.savethestudent.org/accommodation/guide-to-student-energy-bills.html">
+<h3 class="heading">
+Student bills – Setup, compare and split </h3>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="component card half-height coloured bg-colour-blue border-colour-blue">
+<img loading="lazy" width="385" height="200" src="https://www.savethestudent.org/wp-content/themes/save-the-student/dist/img/placeholder-385x200.gif" class="image -desktop img-responsive wp-post-image" alt="woman sat at desk and cables in internet router" data-src-when-visible="https://www.savethestudent.org/uploads/Woman-laptop-desk-student-router-internet-cables-wires-385x200.jpg" decoding="async" />
+<div class="content-container  bg-colour-blue">
+<div class="content">
+<a href="https://www.savethestudent.org/accommodation/student-broadband-comparison.html">
+<h3 class="heading">
+Best student broadband deals 2024 </h3>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="component card half-height coloured bg-colour-blue border-colour-blue">
+<img loading="lazy" width="385" height="200" src="https://www.savethestudent.org/wp-content/themes/save-the-student/dist/img/placeholder-385x200.gif" class="image -desktop img-responsive wp-post-image" alt="phone in hand in front of sim cards" data-src-when-visible="https://www.savethestudent.org/uploads/Phone-screen-sim-only-guide-cards-hand-385x200.jpg" decoding="async" />
+<div class="content-container  bg-colour-blue">
+<div class="content">
+<a href="https://www.savethestudent.org/bills-utilities/mobilephones/sim-only-deals.html">
+<h3 class="heading">
+Best SIM only deals 2024 </h3>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<span class="mega-menu-veil"></span>
+</li>
+<li class=" has-children" data-mega-menu-id="8">
+<a href="https://www.savethestudent.org/shopping" title="Shopping">
+<span class="bg-colour-light-green">Shopping</span>
+</a>
+<span class="arrow ion-arrow-up-b"></span>
+<div class="child-mega-menu">
+<div class="container">
+<div class="row">
+<div class="col-sm-6 col-md-3 child-links">
+<h4 class="heading border-colour-light-green">Shopping</h4>
+<a class="link" href="https://www.savethestudent.org/shopping">
+<i class="colour-light-green ion-arrow-right-b chevron"></i>
+All shopping </a>
+<a class="link" href="https://www.savethestudent.org/save-money/food-drink">
+<i class="colour-light-green ion-arrow-right-b chevron"></i>
+Food &amp; drink </a>
+<a class="link" href="https://www.savethestudent.org/shopping/fashion">
+<i class="colour-light-green ion-arrow-right-b chevron"></i>
+Fashion </a>
+<a class="link" href="https://www.savethestudent.org/shopping/gift-ideas">
+<i class="colour-light-green ion-arrow-right-b chevron"></i>
+Cheap gift ideas </a>
+<a class="link" href="https://www.savethestudent.org/student-discounts">
+<i class="colour-light-green ion-arrow-right-b chevron"></i>
+Student discounts </a>
+</div>
+<div class="col-sm-6 col-md-9">
+<div class="row bootstrap-small">
+<div class="col-md-4">
+<div class="component card half-height coloured bg-colour-light-green border-colour-light-green">
+<img loading="lazy" width="385" height="200" src="https://www.savethestudent.org/wp-content/themes/save-the-student/dist/img/placeholder-385x200.gif" class="image -desktop img-responsive wp-post-image" alt="Krispy Kreme doughnuts, drinks and cinema tickets" data-src-when-visible="https://www.savethestudent.org/uploads/freebies-krispy-kreme-drinks-cinema-tickets-385x200.jpg" decoding="async" />
+<div class="content-container  bg-colour-light-green">
+<div class="content">
+<a href="https://www.savethestudent.org/shopping/ultimate-list-free-stuff.html">
+<h3 class="heading">
+Free stuff: 45 freebies in the UK </h3>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="component card half-height coloured bg-colour-light-green border-colour-light-green">
+<img loading="lazy" width="385" height="200" src="https://www.savethestudent.org/wp-content/themes/save-the-student/dist/img/placeholder-385x200.gif" class="image -desktop img-responsive wp-post-image" alt="best loyalty cards" data-src-when-visible="https://www.savethestudent.org/uploads/loyalty-cards-2-385x200.jpg" decoding="async" />
+<div class="content-container  bg-colour-light-green">
+<div class="content">
+<a href="https://www.savethestudent.org/shopping/a-guide-to-the-best-loyalty-cards.html">
+<h3 class="heading">
+Best loyalty cards 2024 </h3>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="component card half-height coloured bg-colour-light-green border-colour-light-green">
+<img loading="lazy" width="385" height="200" src="https://www.savethestudent.org/wp-content/themes/save-the-student/dist/img/placeholder-385x200.gif" class="image -desktop img-responsive wp-post-image" alt="Planet Earth with a forest in the background and footsteps" data-src-when-visible="https://www.savethestudent.org/uploads/carbon-footprint-world-trees5-385x200.jpg" decoding="async" />
+<div class="content-container  bg-colour-light-green">
+<div class="content">
+<a href="https://www.savethestudent.org/shopping/reduce-carbon-footprint.html">
+<h3 class="heading">
+Easy ways to reduce your carbon footprint </h3>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<span class="mega-menu-veil"></span>
+</li>
+<li class=" has-children" data-mega-menu-id="9">
+<a href="https://www.savethestudent.org/extra-guides" title="Study Tips">
+<span class="bg-colour-pink">Study</span>
+</a>
+<span class="arrow ion-arrow-up-b"></span>
+<div class="child-mega-menu">
+<div class="container">
+<div class="row">
+<div class="col-sm-6 col-md-3 child-links">
+<h4 class="heading border-colour-pink">Study</h4>
+<a class="link" href="https://www.savethestudent.org/extra-guides">
+<i class="colour-pink ion-arrow-right-b chevron"></i>
+All study tips </a>
+<a class="link" href="https://www.savethestudent.org/tools">
+<i class="colour-pink ion-arrow-right-b chevron"></i>
+Useful resources </a>
+<a class="link" href="https://www.savethestudent.org/sixth-form-college">
+<i class="colour-pink ion-arrow-right-b chevron"></i>
+Sixth form &amp; college </a>
+<a class="link" href="https://www.savethestudent.org/freshers">
+<i class="colour-pink ion-arrow-right-b chevron"></i>
+Freshers </a>
+<a class="link" href="https://www.savethestudent.org/international-students">
+<i class="colour-pink ion-arrow-right-b chevron"></i>
+International students </a>
+<a class="link" href="https://www.savethestudent.org/study-abroad">
+<i class="colour-pink ion-arrow-right-b chevron"></i>
+Study abroad </a>
+</div>
+<div class="col-sm-6 col-md-9">
+<div class="row bootstrap-small">
+<div class="col-md-4">
+<div class="component card half-height coloured bg-colour-pink border-colour-pink">
+<img loading="lazy" width="385" height="200" src="https://www.savethestudent.org/wp-content/themes/save-the-student/dist/img/placeholder-385x200.gif" class="image -desktop img-responsive wp-post-image" alt="stressed student with laptop, hourglass and alarm clock" data-src-when-visible="https://www.savethestudent.org/uploads/stressed-student-hourglass-clock-385x200.jpg" decoding="async" />
+<div class="content-container  bg-colour-pink">
+<div class="content">
+<a href="https://www.savethestudent.org/extra-guides/how-to-write-a-3000-word-essay-in-a-day.html">
+<h3 class="heading">
+How to write a 3,000 word essay in a day </h3>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="component card half-height coloured bg-colour-pink border-colour-pink">
+<img loading="lazy" width="385" height="200" src="https://www.savethestudent.org/wp-content/themes/save-the-student/dist/img/placeholder-385x200.gif" class="image -desktop img-responsive wp-post-image" alt="man studying at laptop with lightbulb background" data-src-when-visible="https://www.savethestudent.org/uploads/man-at-laptop-lightbulb-background-385x200.jpg" decoding="async" />
+<div class="content-container  bg-colour-pink">
+<div class="content">
+<a href="https://www.savethestudent.org/extra-guides/hacks-that-will-massively-increase-your-productivity.html">
+<h3 class="heading">
+How to work more productively </h3>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="component card half-height coloured bg-colour-pink border-colour-pink">
+<img loading="lazy" width="385" height="200" src="https://www.savethestudent.org/wp-content/themes/save-the-student/dist/img/placeholder-385x200.gif" class="image -desktop img-responsive wp-post-image" alt="graduation cap and diploma" data-src-when-visible="https://www.savethestudent.org/uploads/graduation-cap-diploma-1-385x200.jpg" decoding="async" />
+<div class="content-container  bg-colour-pink">
+<div class="content">
+<a href="https://www.savethestudent.org/extra-guides/so-youd-like-a-first-class-degree-would-you.html">
+<h3 class="heading">
+How to get a first class degree </h3>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<span class="mega-menu-veil"></span>
+</li>
+<li class>
+<a href="https://www.savethestudent.org/news" title="Student News">
+<span class="bg-colour-red">News</span>
+</a>
+</li>
+<li class=" -highlight has-children" data-mega-menu-id="11">
+<a href="https://www.savethestudent.org/student-deals" title="Deals">
+<span class="bg-colour-orange">Deals</span>
+</a>
+<span class="arrow ion-arrow-up-b"></span>
+<div class="child-mega-menu">
+<div class="container">
+<div class="row">
+<div class="col-sm-6 col-md-3 child-links">
+<h4 class="heading border-colour-orange">Deals</h4>
+<a class="link" href="https://www.savethestudent.org/student-deals">
+<i class="colour-orange ion-arrow-right-b chevron"></i>
+Latest deals </a>
+<a class="link" href="https://www.savethestudent.org/student-deals/top-picks">
+<i class="colour-orange ion-arrow-right-b chevron"></i>
+Best deals </a>
+<a class="link" href="https://www.savethestudent.org/student-deals/free-stuff">
+<i class="colour-orange ion-arrow-right-b chevron"></i>
+Free stuff </a>
+<a class="link" href="https://www.savethestudent.org/student-discounts">
+<i class="colour-orange ion-arrow-right-b chevron"></i>
+Student discounts </a>
+<a class="link" href="https://www.savethestudent.org/join/" target="_blank">
+<i class="colour-orange ion-arrow-right-b chevron"></i>
+Free deals email </a>
+<a class="link" href="https://www.savethestudent.org/contact-us">
+<i class="colour-orange ion-arrow-right-b chevron"></i>
+Submit a deal </a>
+</div>
+<div class="col-sm-6 col-md-9">
+<div class="row bootstrap-small">
+<div class="col-md-4">
+<div class="component card half-height coloured bg-colour-orange border-colour-orange">
+<img loading="lazy" width="385" height="200" src="https://www.savethestudent.org/wp-content/themes/save-the-student/dist/img/placeholder-385x200.gif" class="image -desktop img-responsive wp-post-image" alt="uber eats" data-src-when-visible="https://www.savethestudent.org/uploads/uber-eats-1-385x200.jpg" decoding="async" />
+<div class="content-container  bg-colour-orange">
+<div class="content">
+<a href="https://www.savethestudent.org/student-deals/food-and-drink/uber-eats-promo-code.html">
+<h3 class="heading">
+£5 off £15 Uber Eats spend </h3>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="component card half-height coloured bg-colour-orange border-colour-orange">
+<img loading="lazy" width="385" height="200" src="https://www.savethestudent.org/wp-content/themes/save-the-student/dist/img/placeholder-385x200.gif" class="image -desktop img-responsive wp-post-image" alt="£50 amazon voucher with orange background" data-src-when-visible="https://www.savethestudent.org/uploads/amazon-voucher-385x200.jpg" decoding="async" />
+<div class="content-container  bg-colour-orange">
+<div class="content">
+<a href="https://www.savethestudent.org/student-deals/competitions/win-50-amazon-voucher.html">
+<h3 class="heading">
+WIN £50 Amazon voucher </h3>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="component card half-height coloured bg-colour-orange border-colour-orange">
+<img loading="lazy" width="385" height="200" src="https://www.savethestudent.org/wp-content/themes/save-the-student/dist/img/placeholder-385x200.gif" class="image -desktop img-responsive wp-post-image" alt data-src-when-visible="https://www.savethestudent.org/uploads/just-eat-1-20230404-105844-385x200.jpg" decoding="async" />
+<div class="content-container  bg-colour-orange">
+<div class="content">
+<a href="https://www.savethestudent.org/student-deals/fun-entertainment/free-10-just-eat-bonus-with-quidco.html">
+<h3 class="heading">
+Free £10 Just Eat bonus with Quidco </h3>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<span class="mega-menu-veil"></span>
+</li>
+<li class="ellipsis navbar-toggle">
+<a href="javascript: return false;"><div>...</div></a>
+<span class="sr-only">Toggle navigation</span>
+<ul class="overflow-menu -thin"></ul>
+</li>
+</ul>
+<ul class="sharing list-inline">
+<li>
+
+
+<a href="https://woobox.com/nj3jkc" target="_blank" class="share -email -plain" rel="nofollow">
+<span>
+
+<i class="ion-trophy"></i>&nbsp; <span class="join-email__text">&pound;250 Greggs</span>
+</span>
+</a>
+</li>
+</li><li class="social">
+<a href="https://www.instagram.com/savethestudent" target="_blank" class="btn bg-colour-instagram" rel="nofollow noopener noreferrer">
+<span><i class="ion-social-instagram"></i></span>
+</a>
+</li><li class="social">
+<a href="https://www.facebook.com/savethestudent" target="_blank" class="btn bg-colour-facebook" rel="nofollow noopener noreferrer">
+<span><i class="ion-social-facebook"></i></span>
+</a>
+</li><li class="social"><a href="https://www.tiktok.com/@savethestudent" target="_blank" class="btn bg-colour-tiktok" rel="nofollow noopener noreferrer"><span><img src="https://www.savethestudent.org/wp-content/themes/save-the-student/dist/img/tiktok-icon.png" alt="TikTok" width="26" height="30" /></span></a>
+</li><li class="search">
+<div class="search-form-container">
+<a href="javascript: return false;">
+<i class="ion-ios-search-strong -icon -search"></i>
+</a>
+<form class="search-form" action="/" method="get">
+<div class="field-container">
+<input name="s" class="field" type="text" placeholder="search..." />
+</div>
+</form>
+</div>
+</li>
+</ul>
+</div>
+<div class="burger-container">
+<button id="navbar-toggle" class="navbar-toggle burger" type="button">
+<span class="sr-only">Toggle navigation</span>
+<i></i>
+</button>
+<div class="search">
+<div class="search-form-container -mobile">
+<a href="#" class="mobile-search">
+<i class="ion-ios-search-strong -icon -search"></i>
+</a>
+<form class="search-form" action="/" method="get">
+<div class="field-container">
+<input name="s" class="field" type="text" placeholder="search..." />
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+</nav>
+<div id="wrapper" class="sidebar-and-article single-post bg-colour-light-grey">
+<div class="container">
+<div class="row">
+<div class="table-container">
+<div class="-table-row">
+<div class="-table-cell body-column">
+<article class="article-body bg-colour-white border-colour-green" itemscope itemtype="http://schema.org/Article" data-colour-class="green">
+<p class="category colour-green" itemprop="articleSection">
+<a class="colour-green" href="https://www.savethestudent.org/student-finance">
+Student Finance </a>
+</p>
+<h1 class="heading -title" itemprop="headline">How much does university cost?</h1>
+<meta itemprop="datePublished" content="2020-06-05">
+<meta itemprop="dateModified" content="2023-05-11">
+<meta itemprop="mainEntityOfPage" content="https://www.savethestudent.org/student-finance/university-study-cost.html">
+<div itemprop="publisher" itemscope itemtype="https://schema.org/Organization">
+<meta itemprop="name" content="Save the Student">
+<div class="hidden" itemprop="logo" itemscope itemtype="https://schema.org/ImageObject">
+<meta itemprop="url" content="https://www.savethestudent.org/wp-content/themes/save-the-student/dist/img/logo.png">
+<meta itemprop="width" content="216">
+<meta itemprop="height" content="150">
+</div>
+</div>
+<div class="hidden" itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
+<meta itemprop="url" content="https://www.savethestudent.org/uploads/Woman-student-graduate-university-cambridge-money-pound-signs-cash.jpg">
+<meta itemprop="width" content="753">
+<meta itemprop="height" content="396">
+</div>
+<section class="author-meta">
+<div itemprop="author" itemscope itemtype="http://schema.org/Person">
+<div class="profile-image-container">
+<img src="https://www.savethestudent.org/uploads/Tom-Allingham-Author-Profile-100x100.jpg" height="75" width="75" alt="Tom Allingham" class="profile-image" loading="eager" />
+</div>
+<div class="meta">
+<p>
+<span>by</span>
+<span class="-medium">
+<a href="https://www.savethestudent.org/author/tom-allingham" rel="author" class="author-link" itemprop="url">
+<span itemprop="name">Tom Allingham</span>
+</a>
+</span>
+in
+<span class="-medium">
+<a class="category-link" rel="category tag" href="https://www.savethestudent.org/student-finance">Student Finance</a> </span>
+</p>
+<p class="colour-grey">
+Updated by <span class="-medium">
+<a href="https://www.savethestudent.org/author/nelevanhout" class="updated-by-link" itemprop="url">
+<span itemprop="name">Nele van Hout</span>
+</a>
+</span><br>
+<time datetime="2023-05-11">
+11 May 2023 </time>
+</p>
+</div>
+<div class="sharing">
+<div class="fb-share-button">
+<a href="https://www.facebook.com/sharer/sharer.php?u=https://www.savethestudent.org/student-finance/university-study-cost.html" target="_blank" rel="nofollow noopener noreferrer">
+Share
+</a>
+</div>
+<div class="tweet-button">
+<a target="_blank" href="https://twitter.com/intent/tweet?url=https://www.savethestudent.org/student-finance/university-study-cost.html&text=How much does university cost?" rel="nofollow noopener noreferrer">Tweet</a>
+</div>
+</div>
+</div>
+</section>
+<div class="body" itemprop="articleBody">
+<div class="the-content">
+<p><strong>The cost of university in the UK is something that worries students and parents alike. But, how much does uni <em>actually</em> cost, and do you have to pay for it upfront? Allow us to explain.</strong></p>
+<div id="attachment_180165" style="width: 763px" class="wp-caption aligncenter"><img decoding="async" aria-describedby="caption-attachment-180165" alt="female graduate looking at university with pound signs in the air" height="396" loading="eager" src="https://www.savethestudent.org/uploads/Woman-student-graduate-university-cambridge-money-pound-signs-cash.jpg" width="753" class="wp-image-180165 size-full" xml="lang" srcset="https://www.savethestudent.org/uploads/Woman-student-graduate-university-cambridge-money-pound-signs-cash.jpg 753w, https://www.savethestudent.org/uploads/Woman-student-graduate-university-cambridge-money-pound-signs-cash-400x210.jpg 400w" sizes="(max-width: 753px) 100vw, 753px" /><p id="caption-attachment-180165" class="wp-caption-text">Credit: Lana Kray (background), Krakenimages.com (foreground) – <a href="https://www.shutterstock.com/photos" target="_blank" rel="nofollow noopener noreferrer">Shutterstock</a></p></div>
+<p>People say that your time as a student will be the best three years of your life. And we agree – it definitely can be.</p>
+<p>But, it can also be a very expensive time. With tuition fees and <a href="https://www.savethestudent.org/money/student-budgeting/what-do-students-spend-their-money-on.html">living costs</a>, the costs add up.</p>
+<p>To help you separate the fact from the fiction, we've broken down the numbers to work out the cost of going to university in the UK. And, we'll explain how this is different from what you'll actually end up paying.</p>
+<div class="quick_nav">
+<h3>What's in this guide?</h3>
+<ul>
+<li><a href="#total">How much is university in the UK</a></li>
+<li><a href="#tuition">How much are tuition fees in the UK?</a></li>
+<li><a href="#costofliving">The cost of living at university</a></li>
+<li><a href="#actual">How much do you ACTUALLY pay for university?</a></li>
+</ul>
+</div>
+<div class="tip_container">Still deciding if you want to get a degree? Check out our guide to whether it's <a href="https://www.savethestudent.org/student-finance/is-university-worth-money.html">worth going to university</a>.</div>
+<p><a name="total"></a></p>
+<h2>How much does university cost in the UK?</h2>
+<p><img loading="lazy" decoding="async" alt="emojis of money bag and graduate shrugging" height="301" src="https://www.savethestudent.org/uploads/Graduate-shrug-money-emoji-1.jpg" width="713" class="aligncenter wp-image-150321 size-full" xml="lang" srcset="https://www.savethestudent.org/uploads/Graduate-shrug-money-emoji-1.jpg 713w, https://www.savethestudent.org/uploads/Graduate-shrug-money-emoji-1-400x169.jpg 400w" sizes="(max-width: 713px) 100vw, 713px" /></p>
+<p>Giving an exact figure for how much it costs to go to university is difficult. There are so many variables that affect the final total. But, using official data and the findings from our very own <a href="https://www.savethestudent.org/money/surveys/student-money-survey-2023-results.html">National Student Money Survey</a> (NSMS), we can give a rough cost of<strong> about £66,560</strong>.</p>
+<p>How did we reach that figure? The cost of tuition for the majority of students in the UK is <em>around</em> <strong>£9,250</strong> a year (<a href="#tuition">more on this shortly</a>). And, most courses tend to last for three years. So let's say that tuition fees alone will cost most students about £27,750 over the course of their degree.</p>
+<p>Living costs are a bit harder to work out than tuition fees. They're subject to a lot more variation. For this estimate, we'll use the <a href="https://www.savethestudent.org/money/student-budgeting/what-do-students-spend-their-money-on.html">average annual cost of living</a> from our NSMS: <strong>£12,936</strong> (or £38,808 over three years). But, as <a href="#costofliving">we'll explain later</a>, this figure could be higher or lower depending on a few factors.</p>
+<p>If we take the two figures and apply them to a three-year degree, we can say it costs <strong>about £66,560</strong> to go to university in the UK. This breaks down to <strong>about</strong> <strong>£22,185 a year</strong>.</p>
+<p>Although this sounds like a scary number, you're unlikely to actually pay that much. And, you <strong>won't need to pay</strong> that much when you're actually a student. <a href="#actual">Discover how the amount you pay is very different from what uni really costs</a>.</p>
+<p>Keep in mind that these numbers are for UK students only. <a href="https://www.savethestudent.org/international-students/international-student-fees.html">Tuition fees for international students</a> vastly differ. Fees for the majority of subjects sit somewhere between £10,000 and £20,000 per year. However, the cost can be much more depending on what degree and uni you choose.</p>
+<div class="tip_container">Want some extra perspective? Our calculator can tell you the <a href="https://www.savethestudent.org/uniperhour/" target="_blank" rel="noopener">cost of uni per hour</a>.</div>
+<p><a name="tuition"></a></p>
+<h3>How much are tuition fees in 2023/24?</h3>
+<table id="tablepress-666" class="tablepress tablepress-id-666 tablepress-responsive">
+<thead>
+<tr class="row-1 odd">
+<th class="column-1">Students from</th><th class="column-2">Studying in England</th><th class="column-3">Studying in Scotland</th><th class="column-4">Studying in Wales</th><th class="column-5">Studying in N Ireland</th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-2 even">
+<td class="column-1"><b>England</b></td><td class="column-2">£9,250</td><td class="column-3">£9,250</td><td class="column-4">£9,000</td><td class="column-5">£9,250</td>
+</tr>
+<tr class="row-3 odd">
+<td class="column-1"><b>Scotland</b></td><td class="column-2">£9,250</td><td class="column-3">Free</td><td class="column-4">£9,000</td><td class="column-5">£9,250</td>
+</tr>
+<tr class="row-4 even">
+<td class="column-1"><b>Wales</b></td><td class="column-2">£9,250</td><td class="column-3">£9,250</td><td class="column-4">£9,000</td><td class="column-5">£9,250</td>
+</tr>
+<tr class="row-5 odd">
+<td class="column-1"><b>Northern Ireland</b></td><td class="column-2">£9,250</td><td class="column-3">£9,250</td><td class="column-4">£9,000</td><td class="column-5">£4,710</td>
+</tr>
+<tr class="row-6 even">
+<td class="column-1"><b>Republic of Ireland</b></td><td class="column-2">£9,250</td><td class="column-3">Free</td><td class="column-4">£9,000</td><td class="column-5">£4,710</td>
+</tr>
+</tbody>
+</table>
+
+<p>As we touched on earlier, there is no one set tuition fee in the UK. Instead, the amount you'll be charged each year depends on where you're from and where in the UK you're studying.</p>
+<p>For instance, if you wanted to know what the University of Edinburgh's tuition fees were, the question wouldn't be as simple as "What are Edinburgh's fees?". Instead, as Edinburgh is in Scotland, you'd need to check how tuition fees in Scotland vary based on which part of the UK (or beyond) you're from.</p>
+<p>You'll notice in the above table that annual tuition fees can be lower than £9,000 or £9,250. And, as mentioned earlier, <a href="https://www.savethestudent.org/international-students/international-student-fees.html">international students</a> (including those from the EU) often have higher tuition fees.</p>
+<p>For <a href="https://www.savethestudent.org/student-finance/finance-system-for-scottish-students.html">Scottish students</a>, your tuition will be free if you study in Scotland. The Scottish government has confirmed that <a href="https://www.savethestudent.org/international-students/a-guide-to-uk-tuition-fees-for-eu-students.html">EU students in Scotland</a> who started in 2020/21 or earlier will still have free tuition for their whole degree. But, EU students who started in the 2021/22 academic year or later will have to pay fees.</p>
+<p>Similarly, tuition fees for <a href="https://www.savethestudent.org/student-finance/a-guide-to-student-finance-for-northern-irish-students.html">Northern Irish students</a> studying in Northern Ireland are roughly half (£4,710) what they are in the rest of the UK. EU students who started in 2020/21 or earlier still have access to these cut-price fees for the full duration of their courses. However, EU students who started in 2021/22 or later are not eligible for home-fee charges.</p>
+<div class="tip_container">These figures are for full-time students only. Our guide to <a href="https://www.savethestudent.org/student-finance/part-time-student-finance.html">part-time Student Finance</a> includes info about tuition fees and financial support.</div>
+<p><a name="costofliving"></a></p>
+<h3>Living costs at university</h3>
+<p><img loading="lazy" decoding="async" alt="piggy bank wearing graduate cap" height="301" src="https://www.savethestudent.org/uploads/postgraduate-doctoral-loan.jpg" width="713" class="aligncenter wp-image-133319 size-full" xml="lang" srcset="https://www.savethestudent.org/uploads/postgraduate-doctoral-loan.jpg 713w, https://www.savethestudent.org/uploads/postgraduate-doctoral-loan-400x169.jpg 400w" sizes="(max-width: 713px) 100vw, 713px" /></p>
+<p>The media seems intent on focusing on the price of tuition. But, living costs are arguably the real financial concern for most students in the UK. And, as we explained earlier, it's almost impossible to give an accurate figure for how much it'll cost you.</p>
+<p>That said, we're able to make a reasonable estimate based on where you'll be studying.</p>
+<p>Every year, thousands of students take part in our <a href="https://www.savethestudent.org/money/surveys/student-money-survey-2023-results.html">National Student Money Survey</a>. As part of the survey, we ask students to tell us how much they spend each month. From this, we're able to give you a breakdown of how much you're likely to spend each month at uni.</p>
+<p>The graph below gives an overview of the average UK student's spending habits each month. As you can see, rent is by far the biggest cost (£439), accounting for around two-fifths of the £1,078 monthly spend. Food (including <a href="https://www.savethestudent.org/save-money/food-drink/how-to-save-money-on-takeaways.html">takeaways</a> and <a href="https://www.savethestudent.org/save-money/food-drink/the-students-ultimate-supermarket-guide.html">groceries</a>) is the second biggest expense, totalling around £199 a month all in.</p>
+<p>There are also some 'hidden' costs that fall under the categories below. Whether it's paying to rent your graduation gown or stumping up the fee to join a society, things can add up.</p>
+<p>And similarly, different students with different needs may incur different expenses. Your course may require you to buy special equipment.</p>
+<p>Or, if you have a disability, you may find there are extra costs linked with going to university. However, the <a href="https://www.savethestudent.org/student-finance/disabled-students-allowances-dsa.html">Disabled Students' Allowance</a> should help you cover these.</p>
+<p><img loading="lazy" decoding="async" alt="Infographic showing the average spending is £1,078 per month. £439 - rent, £133 - groceries, £79 - bills, £69 - going out, £69, transport, £66 - takeaways and eating out, £48 - clothes and shopping, £36 - holidays and events, £26 - health and wellbeing, £25 - other, £24 - mobile phone, £24 - course materials, £21 - gifts and charity, £19 - friends and family" height="388" src="https://www.savethestudent.org/uploads/NSMS-23-student-living-costs-2.png" width="713" class="aligncenter size-full wp-image-231490" xml="lang" srcset="https://www.savethestudent.org/uploads/NSMS-23-student-living-costs-2.png 713w, https://www.savethestudent.org/uploads/NSMS-23-student-living-costs-2-400x218.png 400w" sizes="(max-width: 713px) 100vw, 713px" /></p>
+<p>Of course, these figures may be different to the actual costs of living at your uni.</p>
+<p>The price of rent, transport and going out vary massively depending on where in the UK you are. This is why we're hesitant to put an exact number on the cost of going to university.</p>
+<p>Instead, find out how much the average student spends <strong>at each university in the UK</strong>. Just check out our guide to <a href="https://www.savethestudent.org/money/student-budgeting/what-do-students-spend-their-money-on.html">student living costs</a> for the full list.</p>
+<p>And if you're thinking "uni won't cost much less if I study elsewhere", think again.</p>
+<p>As an example, in our survey, London South Bank University students spent £762 a month on living costs (excluding rent). That's £123 more than the average UK student before rent is even factored in.</p>
+<p>If we then look at the University of St Andrews, things are pretty different. Here, students are spending just £485 a month (again, excluding rent). That's £154 less than the national average and a massive £277 a month less than what students are spending at London South Bank University.</p>
+<p>Both UCL and St Andrews are prestigious universities. Pretty much the only reason the cost of living is <em>so</em> different is that they're in different parts of the UK. It really is worth considering these figures when <a href="https://www.savethestudent.org/extra-guides/how-to-choose-a-university-a-5-step-guide.html">choosing a university</a>.</p>
+<div class="tip_container">UCL and St Andrews aren't the only two universities with wildly different costs of living. As our <a href="https://www.savethestudent.org/money/student-budgeting/what-do-students-spend-their-money-on.html">student living costs guide</a> shows, other unis can be much cheaper or more expensive based on their location.</div>
+<p><a name="actual"></a></p>
+<h2>How much do you actually pay for university?</h2>
+<p>The numbers we've outlined are big, there's no denying that. But, when it comes to Student Finance, remember that the cost of university is <strong>not the same</strong> as what you pay.</p>
+<p>Pretty much all first-time students in the UK are entitled to a <a href="https://www.savethestudent.org/student-finance/the-big-fat-guide-to-student-finance-2012.html">Tuition Fee Loan</a>. This will cover the cost of tuition <strong>in full</strong>. Keep in mind that this is only the case for home-fee students. International students don't have access to Student Finance in the UK.</p>
+<p>As for your living costs, most UK students are eligible for a <a href="https://www.savethestudent.org/student-finance/maintenance-loans.html">Maintenance Loan</a> to help with those. It's worth noting that the loan might not be enough to cover your living costs completely. You can find out about more funding options in our big <a href="https://www.savethestudent.org/student-finance/the-big-fat-guide-to-student-finance-2012.html">guide to Student Finance</a>.</p>
+<p>Student Loans aren't like ordinary loans. You'll only repay 9% of your earnings over a threshold. If your salary drops below that figure, you automatically stop repaying.</p>
+<p>What's more, any outstanding student debt to your name is cancelled around 25, 30 or 40 years after you graduate, depending on <a href="https://www.savethestudent.org/student-finance/student-loan-repayments.html#type">what Student Loan plan you're on</a>. This is the case regardless of how much or how little you've repaid.</p>
+<p>We explain this in <em>a lot</em> more detail in our guide to <a href="https://www.savethestudent.org/student-finance/student-loan-repayments.html">repaying your Student Loan</a>, but the take-home message is that you shouldn't be put off by the price tag of going to uni. There's a good chance you won't pay anything near it.</p>
+<p><em><strong>Make sure you receive all of the <a href="https://www.savethestudent.org/student-finance/student-grants-bursaries-scholarships.html">student bursaries</a> you're entitled to.</strong></em></p>
+</div>
+<section class="author-meta author-bio-box">
+<div>
+<div class="profile-image-container">
+<img src="https://www.savethestudent.org/uploads/Tom-Allingham-Author-Profile-100x100.jpg" height="75" width="75" alt="Tom Allingham" class="profile-image" loading="eager" />
+</div>
+<div class="meta">
+<h2>WRITTEN BY Tom Allingham</h2>
+<p>Tom joined Save the Student in 2017, initially heading up the editorial team before becoming Communications Director. He has appeared as a Student Finance expert on a range of TV and radio stations including the BBC, ITV and Sky, sharing his top tips for saving money and cutting student bills.
+<br/><a href="https://www.savethestudent.org/author/tom-allingham">Read more</a></p>
+<h2>ASK @SAVETHESTUDENT</h2>
+<p><a href="https://twitter.com/intent/tweet?url=https://www.savethestudent.org/student-finance/university-study-cost.html&text=@savethestudent%20" target="_blank" rel="nofollow noopener noreferrer"><strong>Tweet</strong></a> / <a href="https://www.instagram.com/m/savethestudent" target="_blank" rel="nofollow noopener noreferrer"><strong>Instagram DM</strong></a> / <a href="https://www.facebook.com/messages/t/savethestudent" target="_blank" rel="nofollow noopener noreferrer"><strong>Facebook DM</strong></a> / <a href="https://www.savethestudent.org/contact-us" target="_blank" rel="nofollow"><strong>Email</strong></a></p>
+</div>
+</div>
+</section>
+</article>
+</div>
+<div class="-table-cell sidebar-column hidden-xs hidden-sm">
+<aside class="article-sidebar border-colour-green">
+<section class="widget -cards">
+<div class="row no-gutter">
+<div class="col-xs-12">
+<h4 class="heading -sidebar bg-colour-orange">Hot Deals</h4>
+</div>
+<div class="col-sm-6 col-md-12 no-padding-right">
+<div class="component card landscape use-p-tag bg-colour-white border-colour-sts-purple">
+<img width="200" height="120" src="https://www.savethestudent.org/uploads/greggs-dealpost-200x120.jpg" class="image -desktop img-responsive wp-post-image" alt="greggs giftcard" decoding="async" loading="lazy" />
+<div class="content-container ">
+<div class="content">
+<a href="https://www.savethestudent.org/student-deals/competitions/win-250-of-greggs.html" target="_blank">
+<p class="heading">
+Win £250 of Greggs! </p>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class="col-sm-6 col-md-12 no-padding-right">
+<div class="component card landscape use-p-tag bg-colour-white border-colour-sts-purple">
+<img width="200" height="120" src="https://www.savethestudent.org/uploads/Branded-Surveys-200x120.jpg" class="image -desktop img-responsive wp-post-image" alt="branded surveys" decoding="async" loading="lazy" />
+<div class="content-container ">
+<div class="content">
+<a href="https://www.savethestudent.org/student-deals/money-rewards/free-money-for-your-opinion.html" target="_blank">
+<p class="heading">
+Branded Surveys &#8211; Payout for your opinion </p>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class="col-sm-6 col-md-12 no-padding-right">
+<div class="component card landscape use-p-tag bg-colour-white border-colour-sts-purple">
+<img width="200" height="120" src="https://www.savethestudent.org/uploads/qmee-1-200x120.jpg" class="image -desktop img-responsive wp-post-image" alt="Qmee" decoding="async" loading="lazy" />
+<div class="content-container ">
+<div class="content">
+<a href="https://www.savethestudent.org/student-deals/money-rewards/get-paid-for-searching-the-web.html" target="_blank">
+<p class="heading">
+Qmee &#8211; Get paid for searching the web </p>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class="col-sm-6 col-md-12 no-padding-right">
+<div class="component card landscape use-p-tag bg-colour-white border-colour-sts-purple">
+<img width="200" height="120" src="https://www.savethestudent.org/uploads/sweatcoin-logo-200x120.png" class="image -desktop img-responsive wp-post-image" alt="sweatcoin logo" decoding="async" loading="lazy" />
+<div class="content-container ">
+<div class="content">
+<a href="https://www.savethestudent.org/student-deals/money-rewards/sweatcoin-review.html" target="_blank">
+<p class="heading">
+Sweatcoin &#8211; Get paid to exercise </p>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="widget -cards">
+<div class="row no-gutter">
+<div class="col-xs-12">
+<h4 class="heading -sidebar bg-colour-sts-purple">Trending</h4>
+</div>
+<div class="col-sm-6 col-md-12 no-padding-right">
+<div class="component card landscape use-p-tag bg-colour-white border-colour-sts-purple">
+<img width="200" height="120" src="https://www.savethestudent.org/uploads/Woman-pointing-piggy-bank-pound-coins-money-cash-money-200x120.jpg" class="image -desktop img-responsive wp-post-image" alt="woman pointing at piggy bank" decoding="async" loading="lazy" />
+<div class="content-container ">
+<div class="content">
+<a href="https://www.savethestudent.org/shopping/the-best-money-saving-tips.html">
+<p class="heading">
+How to save money – 83 money saving tips </p>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class="col-sm-6 col-md-12 no-padding-right">
+<div class="component card landscape use-p-tag bg-colour-white border-colour-sts-purple">
+<img width="200" height="120" src="https://www.savethestudent.org/uploads/NSMS-23-header-draft-200x120.png" class="image -desktop img-responsive wp-post-image" alt="Pound coins and text saying &#039;NSMS 2023 National Student Money Survey&#039;" decoding="async" loading="lazy" />
+<div class="content-container ">
+<div class="content">
+<a href="https://www.savethestudent.org/money/surveys/student-money-survey-2023-results.html">
+<p class="heading">
+Student Money Survey 2023 – Results </p>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class="col-sm-6 col-md-12 no-padding-right">
+<div class="component card landscape use-p-tag bg-colour-white border-colour-sts-purple">
+<img width="200" height="120" src="https://www.savethestudent.org/uploads/start-wordpress-website-200x120.jpg" class="image -desktop img-responsive wp-post-image" alt="create a website" decoding="async" loading="lazy" />
+<div class="content-container ">
+<div class="content">
+<a href="https://www.savethestudent.org/make-money/how-to-start-wordpress-website.html">
+<p class="heading">
+How to create a website in 20 minutes </p>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class="col-sm-6 col-md-12 no-padding-right">
+<div class="component card landscape use-p-tag bg-colour-white border-colour-sts-purple">
+<img width="200" height="120" src="https://www.savethestudent.org/uploads/cat-using-laptop2-200x120.jpg" class="image -desktop img-responsive wp-post-image" alt="cat on laptop" decoding="async" loading="lazy" />
+<div class="content-container ">
+<div class="content">
+<a href="https://www.savethestudent.org/make-money/best-paid-online-survey-sites.html">
+<p class="heading">
+Best paid online survey sites </p>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class="col-sm-6 col-md-12 no-padding-right">
+<div class="component card landscape use-p-tag bg-colour-white border-colour-sts-purple">
+<img width="200" height="120" src="https://www.savethestudent.org/uploads/woman-holding-50-notes-male-female4-200x120.jpg" class="image -desktop img-responsive wp-post-image" alt="woman with money and a laptop" decoding="async" loading="lazy" />
+<div class="content-container ">
+<div class="content">
+<a href="https://www.savethestudent.org/make-money/10-quick-cash-injections.html">
+<p class="heading">
+40 easy ways to make money quickly </p>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<div class="fixed">
+<section class="widget -newsletter pnp-bg -hidden" style="background-image: url(https://www.savethestudent.org/wp-content/themes/save-the-student/dist/img/purple-square-bg.png)">
+<section class="component newsletter small-dismissible dismissible">
+<div class="newsletter-container">
+<a href="#" class="close-me">
+<i class="ion-ios-close-empty"></i>
+</a>
+<h4 class="heading">
+Free <span class="colour-light-yellow">money cheat sheet!</span>
+</h4>
+<form class="newsletter-form" action="/join/" method="POST" target="_blank">
+<div class="field-container">
+<input class="field" type="email" name="EMAIL" placeholder="Enter your email" />
+<button class="submit" type="submit">Go</button>
+</div>
+</form>
+<p class="note newsletter__note">Weekly deals, guides + free cheat sheet. <a href="https://www.savethestudent.org/privacy-policy" target="_blank" rel="nofollow">Privacy policy</a></p>
+</div>
+</section>
+</section> </div>
+</aside>
+</div>
+</div>
+</div>
+<div class="table-container">
+<div class="-table-row">
+<div class="-table-cell body-column">
+<section class="other-posts bootstrap-small">
+<h2 class="heading bg-colour-green">What are other people reading?</h2>
+<div class="row">
+<div class="col-md-3 col-sm-6">
+<div class="component card half-height -make-blue bg-colour-white border-colour-green">
+<img width="252" height="160" src="https://www.savethestudent.org/uploads/Student-Finance-website-laptop-phone-calendar-diary-252x160.jpg" class="image -desktop img-responsive wp-post-image" alt="how to apply for student finance" decoding="async" loading="lazy" /><img width="100" height="100" src="https://www.savethestudent.org/uploads/Student-Finance-website-laptop-phone-calendar-diary-100x100.jpg" class="image -mobile wp-post-image" alt="how to apply for student finance" decoding="async" loading="lazy" srcset="https://www.savethestudent.org/uploads/Student-Finance-website-laptop-phone-calendar-diary-100x100.jpg 100w, https://www.savethestudent.org/uploads/Student-Finance-website-laptop-phone-calendar-diary-260x260.jpg 260w" sizes="(max-width: 100px) 100vw, 100px" />
+<div class="content-container ">
+<div class="content">
+<a href="https://www.savethestudent.org/student-finance/applying-for-student-finance-20112012.html">
+<h3 class="heading">
+Applying for Student Finance 2023/24 </h3>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-3 col-sm-6">
+<div class="component card half-height -make-blue bg-colour-white border-colour-green">
+<img width="252" height="160" src="https://www.savethestudent.org/uploads/University-money-dollars-252x160.jpg" class="image -desktop img-responsive wp-post-image" alt="university library with dollar bags" decoding="async" loading="lazy" /><img width="100" height="100" src="https://www.savethestudent.org/uploads/University-money-dollars-100x100.jpg" class="image -mobile wp-post-image" alt="university library with dollar bags" decoding="async" loading="lazy" srcset="https://www.savethestudent.org/uploads/University-money-dollars-100x100.jpg 100w, https://www.savethestudent.org/uploads/University-money-dollars-260x260.jpg 260w" sizes="(max-width: 100px) 100vw, 100px" />
+<div class="content-container ">
+<div class="content">
+<a href="https://www.savethestudent.org/study-abroad/american-university-fees.html">
+<h3 class="heading">
+How much are American university fees? </h3>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-3 col-sm-6">
+<div class="component card half-height -make-blue bg-colour-white border-colour-green">
+<img width="252" height="160" src="https://www.savethestudent.org/uploads/bursaryheader-252x160.jpg" class="image -desktop img-responsive wp-post-image" alt="scholarships bursaries funding for university" decoding="async" loading="lazy" /><img width="100" height="100" src="https://www.savethestudent.org/uploads/bursaryheader-100x100.jpg" class="image -mobile wp-post-image" alt="scholarships bursaries funding for university" decoding="async" loading="lazy" srcset="https://www.savethestudent.org/uploads/bursaryheader-100x100.jpg 100w, https://www.savethestudent.org/uploads/bursaryheader-260x260.jpg 260w" sizes="(max-width: 100px) 100vw, 100px" />
+<div class="content-container ">
+<div class="content">
+<a href="https://www.savethestudent.org/student-finance/student-grants-bursaries-scholarships.html">
+<h3 class="heading">
+Student grants, bursaries and scholarships </h3>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-3 col-sm-6">
+<div class="component card half-height -make-blue bg-colour-white border-colour-green">
+<img width="252" height="160" src="https://www.savethestudent.org/uploads/Money-pound-coins-woman-laptop-research-252x160.jpg" class="image -desktop img-responsive wp-post-image" alt="how to find bursaries scholarships student grant" decoding="async" loading="lazy" /><img width="100" height="100" src="https://www.savethestudent.org/uploads/Money-pound-coins-woman-laptop-research-100x100.jpg" class="image -mobile wp-post-image" alt="how to find bursaries scholarships student grant" decoding="async" loading="lazy" srcset="https://www.savethestudent.org/uploads/Money-pound-coins-woman-laptop-research-100x100.jpg 100w, https://www.savethestudent.org/uploads/Money-pound-coins-woman-laptop-research-260x260.jpg 260w" sizes="(max-width: 100px) 100vw, 100px" />
+<div class="content-container ">
+<div class="content">
+<a href="https://www.savethestudent.org/student-finance/student-bursary-scholarship-sources.html">
+<h3 class="heading">
+Student bursary and scholarship sources </h3>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="component newsletter long-purple">
+<div class="bg">
+<div class="newsletter-container">
+<h4 class="heading"><span class="colour-pale-orange">Free</span> money cheat sheet!</h4>
+<form class="newsletter-form" action="/join/" method="POST" target="_blank">
+<div class="field-container">
+<input class="field" type="email" name="EMAIL" placeholder="Enter your email" />
+<button class="submit" type="submit">Continue <i class="ion-android-arrow-forward icon"></i></button>
+</div>
+</form>
+<p class="note colour-light-grey">Weekly deals, guides + free cheat sheet. <a href="https://www.savethestudent.org/privacy-policy" target="_blank" rel="nofollow">Privacy policy</a></p>
+</div>
+</div>
+</section>
+</div>
+<div class="-table-cell sidebar-column hidden-xs hidden-sm"></div>
+</div>
+</div>
+</div>
+</div>
+<footer class="component footer-bar -hidden fade-in hidden-sm hidden-xs">
+<div class="container">
+<div class="row">
+<div class="col-md-9 body-column">
+<div class="social">
+<div class="fb-share-button">
+<a href="https://www.facebook.com/sharer/sharer.php?u=https://www.savethestudent.org/student-finance/university-study-cost.html" target="_blank" rel="nofollow noopener noreferrer">
+Share
+</a>
+</div>
+<div class="tweet-button">
+<a target="_blank" href="https://twitter.com/intent/tweet?url=https://www.savethestudent.org/student-finance/university-study-cost.html&text=Student bursary and scholarship sources" rel="nofollow noopener noreferrer">Tweet</a>
+</div>
+</div>
+</div>
+<div class="col-md-3 hidden-sm hidden-xs next-post-container">
+<div class="next-post">
+<p class="title">Next Article</p>
+<a href="https://www.savethestudent.org/student-finance/is-university-worth-money.html" class="next-post-link">Is going to university worth it?</a>
+</div>
+</div>
+</div>
+</div>
+</footer>
+</div>
+<footer class="site-footer">
+<section class="as-seen-on">
+<div class="container">
+<div class="row">
+<div class="col-lg-10">
+<img width="898" height="52" src="https://www.savethestudent.org/wp-content/themes/save-the-student/dist/img/sts-press.png" class="img-responsive" alt="Press logos" loading="lazy" style="margin-top:45px" />
+</div>
+<div class="col-lg-2 text-center">
+<a href="https://www.savethestudent.org/pressroom" class="btn bg-colour-light-green"><span>View Press Page</span></a>
+</div>
+</div>
+</div>
+</section>
+<section class="main-footer">
+<div class="container">
+<div class="row">
+<div class="col-sm-6">
+<div class="footer-header">
+<h3 class="heading bg-colour-sts-purple">the student money website</h3>
+</div>
+</div>
+<div class="col-sm-6">
+<div class="sharing">
+<a href="https://www.instagram.com/savethestudent" target="_blank" class="btn bg-colour-instagram" rel="nofollow noopener noreferrer">
+<span><i class="ion-social-instagram"></i></span>
+</a>
+<a href="https://www.facebook.com/savethestudent" target="_blank" class="btn bg-colour-facebook" rel="nofollow noopener noreferrer">
+<span><i class="ion-social-facebook"></i></span>
+</a>
+<a href="https://twitter.com/savethestudent" target="_blank" class="btn bg-colour-twitter" rel="nofollow noopener noreferrer">
+<span><i class="ion-social-twitter"></i></span>
+</a>
+<a href="https://www.tiktok.com/@savethestudent" target="_blank" class="btn bg-colour-tiktok" rel="nofollow noopener noreferrer"><span><img src="https://www.savethestudent.org/wp-content/themes/save-the-student/dist/img/tiktok-icon.png" alt="TikTok" width="26" height="30" /></span></a>
+
+<a href="https://www.savethestudent.org/contact-us" title="Contact us" class="btn bg-colour-grey">
+<span><i class="ion-ios-email"></i></span>
+</a>
+</div>
+</div>
+</div>
+<div class="row component-accordion -mobile-only">
+<div class="col-md-4 about">
+<div class="accordion">
+<div class="trigger -active visible-xs visible-sm">
+<span class="trigger-link">About us</span>
+</div>
+<div class="reveal">
+<div class="post">
+<p class="text -blurb">
+<strong>Save the Student</strong> provides free, impartial advice to students on how to make their money go further.
+</p>
+</div>
+<hr/>
+<div class="post -small half">
+<p class="text">
+<a href="https://www.savethestudent.org/about">The Story</a>
+</p>
+</div>
+<div class="post -small ">
+<p class="text">
+&nbsp;or <a href="https://www.savethestudent.org/meet-the-team">Meet the Team</a>
+</p>
+</div>
+<hr/>
+<div class="post -small ">
+<p class="text">
+<a href="https://www.savethestudent.org/work-with-us">Job vacancies</a>
+</p>
+</div>
+<hr/>
+<div class="post -small ">
+<p class="text">
+<a href="https://www.savethestudent.org/advertising">Advertise</a>
+</p>
+</div>
+<hr/>
+<div class="post -small ">
+<p class="text">
+<a href="https://www.savethestudent.org/pressroom">Press &amp; media</a>
+</p>
+</div>
+<hr/>
+<div class="post -small ">
+<p class="text">
+<a href="https://www.savethestudent.org/contact-us">Contact us</a>
+</p>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4 recent-posts">
+<div class="accordion">
+<div class="trigger -active">
+<span class="trigger-link">Recent posts</span>
+</div>
+<div class="reveal">
+<div class="post">
+<p class="title">
+<a href="https://www.savethestudent.org/student-jobs/the-alternatives-to-graduate-schemes.html">6 great alternatives to graduate schemes</a>
+</p>
+<p class="text">
+11 March 2024 </p>
+</div>
+<hr/>
+<div class="post">
+<p class="title">
+<a href="https://www.savethestudent.org/student-jobs/9-weird-and-wonderful-jobs-you-never-knew-existed.html">9 unusual jobs and careers you never knew existed</a>
+</p>
+<p class="text">
+11 March 2024 </p>
+</div>
+<hr/>
+<div class="post">
+<p class="title">
+<a href="https://www.savethestudent.org/shopping/amazon-shopping-hacks-for-students.html">18 Amazon hacks to save money</a>
+</p>
+<p class="text">
+11 March 2024 </p>
+</div>
+<hr/>
+<div class="post">
+<p class="title">
+<a href="https://www.savethestudent.org/make-money/how-to-earn-money-from-walking.html">How to earn money from walking</a>
+</p>
+<p class="text">
+11 March 2024 </p>
+</div>
+<hr/>
+</div>
+</div>
+</div>
+<div class="col-md-4 student-picks">
+<div class="accordion">
+<div class="trigger -active">
+<span class="trigger-link">Student picks</span>
+</div>
+<div class="reveal">
+<div class="post -small">
+<a href="https://www.savethestudent.org/join/"><p class="text">Student money cheat sheet</p></a>
+</div>
+<hr/>
+<div class="post -small">
+<a href="https://www.savethestudent.org/student-discounts"><p class="text">Student discounts</p></a>
+</div>
+<hr/>
+<div class="post -small">
+<a href="https://www.savethestudent.org/part-time-student-jobs"><p class="text">Student job search</p></a>
+</div>
+<hr/>
+<div class="post -small">
+<a href="https://www.savethestudent.org/podcast"><p class="text">Student money Podcast</p></a>
+</div>
+<hr/>
+<div class="post -small">
+<a href="https://www.savethestudent.org/student-loans-repayment-calculator"><p class="text">Student loan calculator</p></a>
+</div>
+<hr/>
+<div class="post -small">
+<a href="https://www.savethestudent.org/tools"><p class="text">Useful resources</p></a>
+</div>
+<hr/>
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-12">
+<div class="footer-disclaimer">
+<p>Disclaimer: All content on this website is based on individual experience and journalistic research. It does not constitute financial advice. Save the Student and its authors are not liable for how tips are used, nor for content and services on external websites.</p>
+<p>We sometimes use affiliated links which may result in a payment following a visitor taking action (such as a purchase or registration) on an external website. This helps keep Save the Student free. The user experience shouldn&#8217;t be any different, and such links do not affect our editorial decision-making. As an Amazon Associate, we earn from qualifying purchases.</p>
+<p>Registered Office: 4th Floor Silverstream House, 45 Fitzroy Street, Fitzrovia, London W1T 6EB. Phone 020 8191 8511<br/>
+Company registered in England and Wales No. 07406526</p>
+</div>
+<p class="copyright">
+<a href="https://www.savethestudent.org/privacy-policy">Privacy Policy</a> - <a href="https://www.savethestudent.org/sitemap.xml">Sitemap</a> - &copy; 2024 Save the Student. All Rights Reserved. <a class="climate" href="http://sts.ac/climate" target="_blank" rel="nofollow noopener noreferrer">Climate Positive Website</a>
+<br/>
+<a href="?desktop=1" rel="nofollow" class="visible-xs visible-sm">Switch to desktop view</a>
+</p>
+</div>
+</div>
+</div>
+</section>
+</footer>
+<div class="multi-level-mob-menu">
+<div class="side-menu-veil pnp-toggle-mob-nav" id="side-menu-veil"></div>
+<div class="side-menu-container" id="side-menu-container">
+<aside>
+<header class="site-head">
+<a href="#" class="pnp-nav-back pnp-close-nav">
+<i class="ion-ios-close-empty"></i></a>
+<div class="header"></div>
+</header>
+<ul id="menu-main-menu-1">
+<li>
+<a class="pnp-nav-has-child-menu" data-pnp-toggle-class data-pnp-target="#mob0" data-pnp-class="in" href="https://www.savethestudent.org/student-deals"><div>Deals</div></a>
+</li>
+<li>
+<a class="pnp-nav-has-child-menu" data-pnp-toggle-class data-pnp-target="#mob1" data-pnp-class="in" href="https://www.savethestudent.org/student-finance"><div>Finance</div></a>
+</li>
+<li>
+<a class="pnp-nav-has-child-menu" data-pnp-toggle-class data-pnp-target="#mob2" data-pnp-class="in" href="https://www.savethestudent.org/money"><div>Banking</div></a>
+</li>
+<li>
+<a class="pnp-nav-has-child-menu" data-pnp-toggle-class data-pnp-target="#mob3" data-pnp-class="in" href="https://www.savethestudent.org/make-money"><div>Make Money</div></a>
+</li>
+<li>
+<a class="pnp-nav-has-child-menu" data-pnp-toggle-class data-pnp-target="#mob4" data-pnp-class="in" href="https://www.savethestudent.org/save-money"><div>Save Money</div></a>
+</li>
+<li>
+<a class="pnp-nav-has-child-menu" data-pnp-toggle-class data-pnp-target="#mob5" data-pnp-class="in" href="https://www.savethestudent.org/student-jobs"><div>Jobs</div></a>
+</li>
+<li>
+<a class="pnp-nav-has-child-menu" data-pnp-toggle-class data-pnp-target="#mob6" data-pnp-class="in" href="https://www.savethestudent.org/accommodation"><div>Accommodation</div></a>
+</li>
+<li>
+<a class="pnp-nav-has-child-menu" data-pnp-toggle-class data-pnp-target="#mob7" data-pnp-class="in" href="https://www.savethestudent.org/bills-utilities"><div>Bills</div></a>
+</li>
+<li>
+<a class="pnp-nav-has-child-menu" data-pnp-toggle-class data-pnp-target="#mob8" data-pnp-class="in" href="https://www.savethestudent.org/shopping"><div>Shopping</div></a>
+</li>
+<li>
+<a class="pnp-nav-has-child-menu" data-pnp-toggle-class data-pnp-target="#mob9" data-pnp-class="in" href="https://www.savethestudent.org/extra-guides"><div>Study</div></a>
+</li>
+<li>
+<a href="https://www.savethestudent.org/news"><div>News</div></a>
+</li>
+</ul>
+<footer class="mobile-social">
+
+
+<a href="https://woobox.com/nj3jkc" target="_blank" class="share -email -plain" rel="nofollow">
+<span>
+
+<i class="ion-trophy"></i>&nbsp; <span class="join-email__text">&pound;250 Greggs</span>
+</span>
+</a>
+<a href="https://www.facebook.com/savethestudent" target="_blank" class="btn bg-colour-facebook" rel="nofollow noopener noreferrer">
+<span><i class="ion-social-facebook"></i></span>
+</a>
+<a href="https://twitter.com/savethestudent" target="_blank" class="btn bg-colour-twitter" rel="nofollow noopener noreferrer">
+<span><i class="ion-social-twitter"></i></span>
+</a>
+<a href="https://www.instagram.com/savethestudent" target="_blank" class="btn bg-colour-instagram" rel="nofollow noopener noreferrer">
+<span><i class="ion-social-instagram"></i></span>
+</a>
+</footer>
+</aside>
+<aside id="mob0" class="sub-menu">
+<header>
+<a class="pnp-nav-back" href="#" data-pnp-toggle-class data-pnp-target="#mob0" data-pnp-class="in">
+<i class="ion-ios-arrow-thin-left"></i>
+</a>
+<div class="header">Deals</div>
+</header>
+<ul>
+<li>
+<a href="https://www.savethestudent.org/student-deals"><div>Deals</div></a>
+</li>
+<li>
+<a href="https://www.savethestudent.org/student-deals"><div>Latest deals</div></a>
+</li>
+<li>
+<a href="https://www.savethestudent.org/student-deals/top-picks"><div>Best deals</div></a>
+</li>
+<li>
+<a href="https://www.savethestudent.org/student-deals/free-stuff"><div>Free stuff</div></a>
+</li>
+<li>
+<a href="https://www.savethestudent.org/student-discounts"><div>Student discounts</div></a>
+</li>
+<li>
+<a href="https://www.savethestudent.org/join/" target="_blank"><div>Free deals email</div></a>
+</li>
+<li>
+<a href="https://www.savethestudent.org/contact-us"><div>Submit a deal</div></a>
+</li>
+</ul>
+</aside>
+<aside id="mob1" class="sub-menu">
+<header>
+<a class="pnp-nav-back" href="#" data-pnp-toggle-class data-pnp-target="#mob1" data-pnp-class="in">
+<i class="ion-ios-arrow-thin-left"></i>
+</a>
+<div class="header">Finance</div>
+</header>
+<ul>
+<li>
+<a href="https://www.savethestudent.org/student-finance"><div>Finance</div></a>
+</li>
+<li>
+<a href="https://www.savethestudent.org/student-finance"><div>All student finance</div></a>
+</li>
+<li>
+<a href="https://www.savethestudent.org/student-finance/parents-guide-tips-university.html"><div>Parents&#039; guide 2024</div></a>
+</li>
+<li>
+<a href="https://www.savethestudent.org/student-loans-repayment-calculator"><div>Student loan calculator</div></a>
+</li>
+<li>
+<a href="/join/" target="_blank"><div>Free money cheat sheet</div></a>
+</li>
+</ul>
+</aside>
+<aside id="mob2" class="sub-menu">
+<header>
+<a class="pnp-nav-back" href="#" data-pnp-toggle-class data-pnp-target="#mob2" data-pnp-class="in">
+<i class="ion-ios-arrow-thin-left"></i>
+</a>
+<div class="header">Banking</div>
+</header>
+<ul>
+<li>
+<a href="https://www.savethestudent.org/money"><div>Banking</div></a>
+</li>
+<li>
+<a href="https://www.savethestudent.org/money"><div>All banking &amp; budgeting</div></a>
+</li>
+<li>
+<a href="https://www.savethestudent.org/money/student-banking"><div>Student banking</div></a>
+</li>
+<li>
+<a href="https://www.savethestudent.org/money/student-budgeting"><div>Budgeting advice</div></a>
+</li>
+<li>
+<a href="https://www.savethestudent.org/money/surveys"><div>Student money surveys</div></a>
+</li>
+<li>
+<a href="https://www.savethestudent.org/podcast"><div>Student money podcast</div></a>
+</li>
+</ul>
+</aside>
+<aside id="mob3" class="sub-menu">
+<header>
+<a class="pnp-nav-back" href="#" data-pnp-toggle-class data-pnp-target="#mob3" data-pnp-class="in">
+<i class="ion-ios-arrow-thin-left"></i>
+</a>
+<div class="header">Make Money</div>
+</header>
+<ul>
+<li>
+<a href="https://www.savethestudent.org/make-money"><div>Make Money</div></a>
+</li>
+<li>
+<a href="https://www.savethestudent.org/make-money"><div>All make money</div></a>
+</li>
+<li>
+<a href="https://www.savethestudent.org/student-deals/money-rewards"><div>Earn money &amp; rewards</div></a>
+</li>
+</ul>
+</aside>
+<aside id="mob4" class="sub-menu">
+<header>
+<a class="pnp-nav-back" href="#" data-pnp-toggle-class data-pnp-target="#mob4" data-pnp-class="in">
+<i class="ion-ios-arrow-thin-left"></i>
+</a>
+<div class="header">Save Money</div>
+</header>
+<ul>
+<li>
+<a href="https://www.savethestudent.org/save-money"><div>Save Money</div></a>
+</li>
+<li>
+<a href="https://www.savethestudent.org/save-money"><div>All save money</div></a>
+</li>
+<li>
+<a href="https://www.savethestudent.org/student-deals"><div>Student deals</div></a>
+</li>
+<li>
+<a href="https://www.savethestudent.org/save-money/food-drink"><div>Food &amp; drink</div></a>
+</li>
+<li>
+<a href="https://www.savethestudent.org/travel"><div>Travel &amp; holidays</div></a>
+</li>
+<li>
+<a href="https://www.savethestudent.org/save-money/health"><div>Health &amp; relationships</div></a>
+</li>
+<li>
+<a href="https://www.savethestudent.org/save-money/lifestyle"><div>Lifestyle</div></a>
+</li>
+<li>
+<a href="https://www.savethestudent.org/save-money/food-drink/student-recipes"><div>Student recipes</div></a>
+</li>
+</ul>
+</aside>
+<aside id="mob5" class="sub-menu">
+<header>
+<a class="pnp-nav-back" href="#" data-pnp-toggle-class data-pnp-target="#mob5" data-pnp-class="in">
+<i class="ion-ios-arrow-thin-left"></i>
+</a>
+<div class="header">Jobs</div>
+</header>
+<ul>
+<li>
+<a href="https://www.savethestudent.org/student-jobs"><div>Jobs</div></a>
+</li>
+<li>
+<a href="https://www.savethestudent.org/student-jobs"><div>Getting a job</div></a>
+</li>
+<li>
+<a href="/part-time-student-jobs"><div>Search part-time jobs</div></a>
+</li>
+<li>
+<a href="https://www.savethestudent.org/graduate-jobs"><div>Search graduate jobs</div></a>
+</li>
+<li>
+<a href="https://www.savethestudent.org/student-jobs/graduate-scheme-deadlines-20102011.html"><div>Graduate schemes</div></a>
+</li>
+<li>
+<a href="https://www.savethestudent.org/graduates"><div>Graduate advice</div></a>
+</li>
+</ul>
+</aside>
+<aside id="mob6" class="sub-menu">
+<header>
+<a class="pnp-nav-back" href="#" data-pnp-toggle-class data-pnp-target="#mob6" data-pnp-class="in">
+<i class="ion-ios-arrow-thin-left"></i>
+</a>
+<div class="header">Accommodation</div>
+</header>
+<ul>
+<li>
+<a href="https://www.savethestudent.org/accommodation"><div>Accommodation</div></a>
+</li>
+<li>
+<a href="https://www.savethestudent.org/accommodation"><div>All accommodation</div></a>
+</li>
+<li>
+<a href="https://www.savethestudent.org/money/surveys/national-student-accommodation-survey-2024.html"><div>Student accommodation survey 2024</div></a>
+</li>
+<li>
+<a href="https://www.savethestudent.org/rent-calculator"><div>Rent budget calculator</div></a>
+</li>
+<li>
+<a href="https://www.savethestudent.org/city"><div>Student cities</div></a>
+</li>
+</ul>
+</aside>
+<aside id="mob7" class="sub-menu">
+<header>
+<a class="pnp-nav-back" href="#" data-pnp-toggle-class data-pnp-target="#mob7" data-pnp-class="in">
+<i class="ion-ios-arrow-thin-left"></i>
+</a>
+<div class="header">Bills</div>
+</header>
+<ul>
+<li>
+<a href="https://www.savethestudent.org/bills-utilities"><div>Bills</div></a>
+</li>
+<li>
+<a href="https://www.savethestudent.org/bills-utilities"><div>All bills &amp; utilities</div></a>
+</li>
+<li>
+<a href="https://www.savethestudent.org/bills-utilities/mobilephones"><div>Mobile phones</div></a>
+</li>
+<li>
+<a href="https://www.savethestudent.org/mobile-phone-student-deals"><div>Mobile phone comparison</div></a>
+</li>
+</ul>
+</aside>
+<aside id="mob8" class="sub-menu">
+<header>
+<a class="pnp-nav-back" href="#" data-pnp-toggle-class data-pnp-target="#mob8" data-pnp-class="in">
+<i class="ion-ios-arrow-thin-left"></i>
+</a>
+<div class="header">Shopping</div>
+</header>
+<ul>
+<li>
+<a href="https://www.savethestudent.org/shopping"><div>Shopping</div></a>
+</li>
+<li>
+<a href="https://www.savethestudent.org/shopping"><div>All shopping</div></a>
+</li>
+<li>
+<a href="https://www.savethestudent.org/save-money/food-drink"><div>Food &amp; drink</div></a>
+</li>
+<li>
+<a href="https://www.savethestudent.org/shopping/fashion"><div>Fashion</div></a>
+</li>
+<li>
+<a href="https://www.savethestudent.org/shopping/gift-ideas"><div>Cheap gift ideas</div></a>
+</li>
+<li>
+<a href="https://www.savethestudent.org/student-discounts"><div>Student discounts</div></a>
+</li>
+</ul>
+</aside>
+<aside id="mob9" class="sub-menu">
+<header>
+<a class="pnp-nav-back" href="#" data-pnp-toggle-class data-pnp-target="#mob9" data-pnp-class="in">
+<i class="ion-ios-arrow-thin-left"></i>
+</a>
+<div class="header">Study</div>
+</header>
+<ul>
+<li>
+<a href="https://www.savethestudent.org/extra-guides"><div>Study</div></a>
+</li>
+<li>
+<a href="https://www.savethestudent.org/extra-guides"><div>All study tips</div></a>
+</li>
+<li>
+<a href="https://www.savethestudent.org/tools"><div>Useful resources</div></a>
+</li>
+<li>
+<a href="https://www.savethestudent.org/sixth-form-college"><div>Sixth form &amp; college</div></a>
+</li>
+<li>
+<a href="https://www.savethestudent.org/freshers"><div>Freshers</div></a>
+</li>
+<li>
+<a href="https://www.savethestudent.org/international-students"><div>International students</div></a>
+</li>
+<li>
+<a href="https://www.savethestudent.org/study-abroad"><div>Study abroad</div></a>
+</li>
+</ul>
+</aside>
+</div>
+</div>
+
+<div id="cmplz-cookiebanner-container"><div class="cmplz-cookiebanner cmplz-hidden banner-1 bottom-left-view-preferences optin cmplz-bottom-left cmplz-categories-type-view-preferences" aria-modal="true" data-nosnippet="true" role="dialog" aria-live="polite" aria-labelledby="cmplz-header-1-optin" aria-describedby="cmplz-message-1-optin">
+<div class="cmplz-header">
+<div class="cmplz-logo"></div>
+<div class="cmplz-title" id="cmplz-header-1-optin">We use cookies</div>
+<div class="cmplz-close" tabindex="0" role="button" aria-label="Close dialogue">
+<svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="times" class="svg-inline--fa fa-times fa-w-11" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 352 512"><path fill="currentColor" d="M242.72 256l100.07-100.07c12.28-12.28 12.28-32.19 0-44.48l-22.24-22.24c-12.28-12.28-32.19-12.28-44.48 0L176 189.28 75.93 89.21c-12.28-12.28-32.19-12.28-44.48 0L9.21 111.45c-12.28 12.28-12.28 32.19 0 44.48L109.28 256 9.21 356.07c-12.28 12.28-12.28 32.19 0 44.48l22.24 22.24c12.28 12.28 32.2 12.28 44.48 0L176 322.72l100.07 100.07c12.28 12.28 32.2 12.28 44.48 0l22.24-22.24c12.28-12.28 12.28-32.19 0-44.48L242.72 256z"></path></svg>
+</div>
+</div>
+<div class="cmplz-divider cmplz-divider-header"></div>
+<div class="cmplz-body">
+<div class="cmplz-message" id="cmplz-message-1-optin">Like most websites, we use cookies to optimise, analyse and personalise your experience and ads. By clicking 'Accept all' you agree to our use of cookies. Or set your preferences by clicking 'Cookie settings'. To learn more see our <a href="https://www.savethestudent.org/cookies">Cookie Policy</a>.</div>
+
+<div class="cmplz-categories">
+<details class="cmplz-category cmplz-functional">
+<summary>
+<span class="cmplz-category-header">
+<span class="cmplz-category-title">Functional</span>
+<span class="cmplz-always-active">
+<span class="cmplz-banner-checkbox">
+<input type="checkbox" id="cmplz-functional-optin" data-category="cmplz_functional" class="cmplz-consent-checkbox cmplz-functional" size="40" value="1" />
+<label class="cmplz-label" for="cmplz-functional-optin" tabindex="0"><span class="screen-reader-text">Functional</span></label>
+</span>
+Always active </span>
+<span class="cmplz-icon cmplz-open">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" height="18"><path d="M224 416c-8.188 0-16.38-3.125-22.62-9.375l-192-192c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L224 338.8l169.4-169.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-192 192C240.4 412.9 232.2 416 224 416z" /></svg>
+</span>
+</span>
+</summary>
+<div class="cmplz-description">
+<span class="cmplz-description-functional">The technical storage or access is strictly necessary for the legitimate purpose of enabling the use of a specific service explicitly requested by the user, or for the sole purpose of carrying out the transmission of a communication over an electronic communications network.</span>
+</div>
+</details>
+<details class="cmplz-category cmplz-preferences">
+<summary>
+<span class="cmplz-category-header">
+<span class="cmplz-category-title">Preferences</span>
+<span class="cmplz-banner-checkbox">
+<input type="checkbox" id="cmplz-preferences-optin" data-category="cmplz_preferences" class="cmplz-consent-checkbox cmplz-preferences" size="40" value="1" />
+<label class="cmplz-label" for="cmplz-preferences-optin" tabindex="0"><span class="screen-reader-text">Preferences</span></label>
+</span>
+<span class="cmplz-icon cmplz-open">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" height="18"><path d="M224 416c-8.188 0-16.38-3.125-22.62-9.375l-192-192c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L224 338.8l169.4-169.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-192 192C240.4 412.9 232.2 416 224 416z" /></svg>
+</span>
+</span>
+</summary>
+<div class="cmplz-description">
+<span class="cmplz-description-preferences">The technical storage or access is necessary for the legitimate purpose of storing preferences that are not requested by the subscriber or user.</span>
+</div>
+</details>
+<details class="cmplz-category cmplz-statistics">
+<summary>
+<span class="cmplz-category-header">
+<span class="cmplz-category-title">Analytics</span>
+<span class="cmplz-banner-checkbox">
+<input type="checkbox" id="cmplz-statistics-optin" data-category="cmplz_statistics" class="cmplz-consent-checkbox cmplz-statistics" size="40" value="1" />
+<label class="cmplz-label" for="cmplz-statistics-optin" tabindex="0"><span class="screen-reader-text">Analytics</span></label>
+</span>
+<span class="cmplz-icon cmplz-open">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" height="18"><path d="M224 416c-8.188 0-16.38-3.125-22.62-9.375l-192-192c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L224 338.8l169.4-169.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-192 192C240.4 412.9 232.2 416 224 416z" /></svg>
+</span>
+</span>
+</summary>
+<div class="cmplz-description">
+<span class="cmplz-description-statistics">The technical storage or access that is used exclusively for statistical purposes.</span>
+<span class="cmplz-description-statistics-anonymous">The technical storage or access that is used exclusively for anonymous statistical purposes. We use these cookies to improve our content by understanding how users interact with our website, including how many visitors pages receive.</span>
+</div>
+</details>
+<details class="cmplz-category cmplz-marketing">
+<summary>
+<span class="cmplz-category-header">
+<span class="cmplz-category-title">Marketing</span>
+<span class="cmplz-banner-checkbox">
+<input type="checkbox" id="cmplz-marketing-optin" data-category="cmplz_marketing" class="cmplz-consent-checkbox cmplz-marketing" size="40" value="1" />
+<label class="cmplz-label" for="cmplz-marketing-optin" tabindex="0"><span class="screen-reader-text">Marketing</span></label>
+</span>
+<span class="cmplz-icon cmplz-open">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" height="18"><path d="M224 416c-8.188 0-16.38-3.125-22.62-9.375l-192-192c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L224 338.8l169.4-169.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-192 192C240.4 412.9 232.2 416 224 416z" /></svg>
+</span>
+</span>
+</summary>
+<div class="cmplz-description">
+<span class="cmplz-description-marketing">In limited instances, we may use cookies to anonymously profile users, serve advertising or to track users across several websites for similar marketing purposes.</span>
+</div>
+</details>
+</div>
+</div>
+<div class="cmplz-links cmplz-information">
+<a class="cmplz-link cmplz-manage-options cookie-statement" href="#" data-relative_url="#cmplz-manage-consent-container">Manage options</a>
+<a class="cmplz-link cmplz-manage-third-parties cookie-statement" href="#" data-relative_url="#cmplz-cookies-overview">Manage services</a>
+<a class="cmplz-link cmplz-manage-vendors tcf cookie-statement" href="#" data-relative_url="#cmplz-tcf-wrapper">Manage {vendor_count} vendors</a>
+<a class="cmplz-link cmplz-external cmplz-read-more-purposes tcf" target="_blank" rel="noopener noreferrer nofollow" href="https://cookiedatabase.org/tcf/purposes/">Read more about these purposes</a>
+</div>
+<div class="cmplz-divider cmplz-footer"></div>
+<div class="cmplz-buttons">
+<button class="cmplz-btn cmplz-accept">Accept all</button>
+<button class="cmplz-btn cmplz-deny">Deny</button>
+<button class="cmplz-btn cmplz-view-preferences">Cookie settings</button>
+<button class="cmplz-btn cmplz-save-preferences">Save preferences</button>
+<a class="cmplz-btn cmplz-manage-options tcf cookie-statement" href="#" data-relative_url="#cmplz-manage-consent-container">Cookie settings</a>
+</div>
+<div class="cmplz-links cmplz-documents">
+<a class="cmplz-link cookie-statement" href="#" data-relative_url>{title}</a>
+<a class="cmplz-link privacy-statement" href="#" data-relative_url>{title}</a>
+<a class="cmplz-link impressum" href="#" data-relative_url>{title}</a>
+</div>
+</div>
+</div>
+<div id="cmplz-manage-consent" data-nosnippet="true"><button class="cmplz-btn cmplz-hidden cmplz-manage-consent manage-consent-1">Manage consent</button>
+</div><script type="text/javascript" src="https://www.savethestudent.org/wp-content/themes/save-the-student/externaljs/jquery.2.2.4.min.js" id="jquery-js"></script>
+<script type="text/javascript" id="global_js-js-extra">
+/* <![CDATA[ */
+var global_ajax_obj = {"ajaxurl":"https:\/\/www.savethestudent.org\/wp-admin\/admin-ajax.php"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://www.savethestudent.org/wp-content/themes/save-the-student/dist/js/global.min.js?ver=1.0.5" id="global_js-js"></script>
+<script type="text/javascript" id="cmplz-cookiebanner-js-extra">
+/* <![CDATA[ */
+var complianz = {"prefix":"cmplz_","user_banner_id":"1","set_cookies":[],"block_ajax_content":"0","banner_version":"58","version":"7.0.8","store_consent":"","do_not_track_enabled":"1","consenttype":"optin","region":"uk","geoip":"1","dismiss_timeout":"","disable_cookiebanner":"","soft_cookiewall":"","dismiss_on_scroll":"","cookie_expiry":"365","url":"https:\/\/www.savethestudent.org\/wp-json\/complianz\/v1\/","locale":"lang=en&locale=en_GB","set_cookies_on_root":"0","cookie_domain":"","current_policy_id":"21","cookie_path":"\/","categories":{"statistics":"statistics","marketing":"marketing"},"tcf_active":"","placeholdertext":"Click to accept {category} cookies and enable this content","css_file":"https:\/\/www.savethestudent.org\/uploads\/complianz\/css\/banner-{banner_id}-{type}.css?v=58","page_links":{"eu":{"cookie-statement":{"title":"","url":"https:\/\/www.savethestudent.org\/accommodation\/tenancy-agreement-checklist.html"},"privacy-statement":{"title":"Privacy Policy","url":"https:\/\/www.savethestudent.org\/privacy-policy"}},"uk":{"cookie-statement":{"title":"Cookie Policy","url":"https:\/\/www.savethestudent.org\/cookies"},"privacy-statement":{"title":"Privacy Policy","url":"https:\/\/www.savethestudent.org\/privacy-policy"},"privacy-statement-children":{"title":"","url":"https:\/\/www.savethestudent.org\/accommodation\/tenancy-agreement-checklist.html"}}},"tm_categories":"1","forceEnableStats":"","preview":"","clean_cookies":"","aria_label":"Click to accept {category} cookies and enable this content"};
+/* ]]> */
+</script>
+<script defer type="text/javascript" src="https://www.savethestudent.org/wp-content/plugins/complianz-gdpr-premium/cookiebanner/js/complianz.min.js?ver=1710152984" id="cmplz-cookiebanner-js"></script>
+</body>
+</html>
